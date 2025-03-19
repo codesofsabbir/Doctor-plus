@@ -1,4 +1,43 @@
+@import url("https://themes.envytheme.com/mavis/wp-content/themes/mavis/assets/css/flaticon-mavis.css");
 @import "tailwindcss";
+
+
+
+.menu .menuItem {
+  position: relative;
+  transition: all 0.5s ease-in-out;
+}
+.menu .menuItem:hover {
+  color: #2563eb;
+  font-weight: 700;
+}
+
+.menu .menuItem::after {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #2563eb;
+  transition: width 0.3s ease-in-out;  /* Add transition for the ::after element */
+}
+
+.menu .menuItem:hover::after {
+  width: 100%;
+}
+
+.menu .menuItem:active{
+  font-weight: 700;
+  color: #eab308;
+}
+
+.box:hover .icon{
+  background: #f0da75;
+  color: white;
+}
+
+
 
 :root {
   --background: #ffffff;

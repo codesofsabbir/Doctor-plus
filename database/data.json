@@ -1,0 +1,23 @@
+{
+    "logo": [
+      {
+        "id": 1,
+        "image": "https://i.ibb.co/bKZqWx9/health-logo.png"
+      }
+    ],
+    "user": [
+        {
+            "id":1,
+            "name":"Sabbir Ahmed",
+            "birth": "01-01-2000",
+            "division": "Dhaka",
+            "city": "Narayangonj",
+            "upazila": "Rupgonj",
+            "village": "Birabo",
+            "phone": "01303142498",
+            "image": "https://i.ibb.co.com/DMkJJYR/254896.jpg",
+            "password": 11111111
+        }
+    ]
+  }
+  
