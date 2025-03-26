@@ -6,13 +6,13 @@ import FooterBottom from "./FooterBottom";
 export default function Footer() {
   return (
     <>
-        <footer className="bg-[#1e1e4a] text-white rounded-[50px]">
-        <div className="w-[80%] mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-11 gap-14  py-28">
+        <footer className="bg-[#1e1e4a] text-white rounded-2xl">
+        <div className="w-[90%] mx-auto flex flex-wrap justify-between py-20">
             
             {/* Contact Section */}
-            <div className="lg:col-span-3">
+            <div className="w-fit">
             <h2 className="text-3xl font-bold mb-4">Contact Us</h2>
-            <div className="flex flex-col gap-3 py-5">
+            <div className="flex flex-col gap-3 py-5 md:w-[300px]">
                 <h3 className="text-gray-300 flex gap-5 text-justify text-lg">
                     <strong>Address:</strong>
                     <p>
@@ -60,7 +60,7 @@ export default function Footer() {
             </div>
 
             {/* Services Section */}
-            <div className="lg:col-span-2">
+            <div className="w-fit">
             <h2 className="text-3xl font-bold mb-4">Services</h2>
             <ul className="text-gray-300 space-y-2 py-5">
                 <li>Lab Tests</li>
@@ -74,7 +74,7 @@ export default function Footer() {
             </div>
 
             {/* Our Practice Section */}
-            <div className="lg:col-span-2">
+            <div className="w-fit">
             <h2 className="text-2xl font-bold mb-4">Our Practice</h2>
             <ul className="text-gray-300 space-y-2 py-5">
                 <li>About Us</li>
@@ -88,7 +88,7 @@ export default function Footer() {
             </div>
 
             {/* Working Hours Section */}
-            <div className="bg-[#d5e7b2] text-[#1e1e4a] p-6 rounded-xl lg:col-span-4">
+            <div className="bg-[#d5e7b2] text-[#1e1e4a] p-6 rounded-xl w-full md:w-fit">
             <h2 className="text-3xl font-bold mb-4">Working Hours</h2>
             <div className="space-y-2 text-base">
                 <div className="flex justify-between">
@@ -114,7 +114,7 @@ export default function Footer() {
 
             {/* Book A Visit Button */}
             
-            <Button buttonTitle={"Book A Visit"} className="mt-16 mb-5"/>
+            <Button buttonTitle={"Book A Visit"} className="mt-16 mb-5 mx-auto"/>
             </div>
 
         </div>

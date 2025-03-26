@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Title({title}) {
+function Title({title, bg = "#F0DA6A"}) {
   return (
-    <span className='rounded-full px-7 py-2 bg-yellow-500'>{title}</span>
+    <span className='rounded-full px-7 py-2' style={{background: bg}}>{title}</span>
   )
 }
 

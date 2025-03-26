@@ -1,5 +1,4 @@
-"use client"; // If using Next.js App Router
-
+"use client"; 
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -32,9 +31,9 @@ const Logo = () => {
         <Image
           src={logo}
           alt="Doctor Plus logo"
-          width={80}
-          height={80}
-          className="w-20"
+          width={250}
+          height={250}
+          className=""
         />
       ) : (
         <div>Loading...</div>

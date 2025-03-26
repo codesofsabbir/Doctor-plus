@@ -1,10 +1,9 @@
 import React from 'react'
-import Image from 'next/image'
 import '@/app/globals.css';
-function ServiceCard({className = '',imageBgColor, imageURL, cardTitle, bollatPoints, cardDescription}) {
+function ServiceCard({className = '',imageBgColor, icon, cardTitle, bollatPoints, cardDescription}) {
     const lists = bollatPoints.split(", ").map(sentence => sentence.trim()).filter(Boolean);
   return (
-    <div className={`bg-white h-[350px] p-5 rounded-2xl group transition-all relative ${className}`}>
+    <div className={`service-card bg-white h-[350px] p-5 rounded-2xl group transition-all relative ${className}`}>
         <div className="w-24 h-24 md:w-20 md:h-20 lg:w-24 lg:h-24  flex justify-center items-center rounded-full transition-all duration-700 group-hover:w-16 group-hover:h-16" style={{backgroundColor:imageBgColor}}>
             {/* <Image 
                 src={imageURL}
@@ -13,7 +12,7 @@ function ServiceCard({className = '',imageBgColor, imageURL, cardTitle, bollatPo
                 height={500}
                 className="w-16 transition-all duration-300 group-hover:w-10"
             /> */}
-            <i className='flaticon-emergency-call'></i>
+            <i className=''>{icon}</i>
         </div>
 
         <div className='bg-white pt-5'>

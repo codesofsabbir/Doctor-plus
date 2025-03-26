@@ -11,7 +11,7 @@ function Blog() {
                 <Title title={"Latest News"}/>
                 <TitleDes titleDes={"Mavis Clinics Latest Articles On Holistic Health"} className='w-4/5'/>
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-3 gap-10'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
                 <BlogCard blogImage={"https://themes.envytheme.com/mavis/wp-content/uploads/2024/04/blog1-515x400.jpg"} blogAuthor={"Sabbir"} blogDate={"19 Mar, 2025"} blogTitle={"The Heart of the Matter: UnderStanding Cardiovascular"} blogDes={"Moving beyond the basics, we discuss the significance of maintaining a healthy heart through"}/>
                 <BlogCard blogImage={"https://themes.envytheme.com/mavis/wp-content/uploads/2024/04/blog2-515x400.jpg"} blogAuthor={"Sabbir"} blogDate={"19 Mar, 2025"} blogTitle={"The Heart of the Matter: UnderStanding Cardiovascular"} blogDes={"Moving beyond the basics, we discuss the significance of maintaining a healthy heart through"}/>
                 <BlogCard blogImage={"https://themes.envytheme.com/mavis/wp-content/uploads/2024/04/blog3-515x400.jpg"} blogAuthor={"Sabbir"} blogDate={"19 Mar, 2025"} blogTitle={"The Heart of the Matter: UnderStanding Cardiovascular"} blogDes={"Moving beyond the basics, we discuss the significance of maintaining a healthy heart through"}/>

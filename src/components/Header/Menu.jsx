@@ -8,13 +8,13 @@ function Menu() {
   
   return (
     <>
-      <MainMenu />
+      <ComputerMenu />
       <MobileMenu />
     </>
   );
 }
 
-const MainMenu = () => {
+const ComputerMenu = () => {
   const pathname = usePathname();
   return(
 
@@ -49,7 +49,7 @@ const MobileMenu = () => {
   const hamburgerRef = useRef(null);
 
   const toggleMenu = (event) => {
-    event.stopPropagation(); // Stop event from bubbling
+    event.stopPropagation();
     setOpen((prev) => !prev);
   };
 
@@ -72,18 +72,14 @@ const MobileMenu = () => {
   }, []);
 
   return (
-    <>
+    <div className='w-full relative overflow-x-hidden'>
       {/* Hamburger Icon */}
       <div ref={hamburgerRef} className="md:hidden">
         <Hamburger toggled={isOpen} toggle={setOpen} size={20} />
       </div>
-
-      {/* Mobile Menu */}
       <div
         ref={menuRef}
-        className={`md:hidden absolute top-24 ${
-          isOpen ? "right-5" : "-right-full"
-        } bg-white w-3/4 p-5 rounded-lg transition-all duration-300 ease-in-out shadow-lg`}
+        className={`md:hidden absolute ${isOpen? "right-5": "-right-[110%]"} bg-white w-1/2 p-5 rounded-lg transition-all duration-300 ease-out shadow-2xl z-[50]`}
       >
         <ul className="menu flex flex-col gap-3">
           {[
@@ -111,7 +107,8 @@ const MobileMenu = () => {
           <Button />
         </ul>
       </div>
-    </>
+      
+    </div>
   );
 };
 

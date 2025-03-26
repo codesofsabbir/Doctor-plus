@@ -54,7 +54,7 @@ function Avator() {
   }, []);
 
   return (
-    <div className="overflow-visible relative">
+    <div className="relative z-10">
       <div
         ref={avatarRef}
         className="rounded-full overflow-hidden w-10 h-10 border cursor-pointer"

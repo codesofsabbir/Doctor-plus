@@ -5,6 +5,14 @@
         "image": "https://i.ibb.co/bKZqWx9/health-logo.png"
       }
     ],
+    "banner":[
+      {
+        "id":1,
+        "tagline":"doctor plus dedication to excellence",
+        "image": "",
+        "bg": ""
+      }
+    ],
     "user": [
         {
             "id":1,

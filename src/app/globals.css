@@ -37,7 +37,21 @@
   color: white;
 }
 
+.svg-icon path {
+  transition: fill 0.3s ease;
+}
 
+.box:hover .svg-icon path {
+  fill: white; 
+}
+.service-icon{
+  transition: all .7s ease;
+}
+
+.service-card:hover .service-icon{
+  width: 40px;
+  height: 40px;
+}
 
 :root {
   --background: #ffffff;
