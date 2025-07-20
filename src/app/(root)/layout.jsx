@@ -1,13 +1,18 @@
-import Header from '@/components/Header/Header'
-import React from 'react'
+import Footer from "@/components/Footer/Footer";
+import Header from "@/components/Header/Header";
+import React from "react";
+import { SessionProvider } from "next-auth/react";
 
-function layout({children}) {
+function Layout({ children }) {
   return (
-    <div>
+    <SessionProvider>
+      <div>
         <Header />
         {children}
-    </div>
-  )
+        <Footer />
+      </div>
+    </SessionProvider>
+  );
 }
 
-export default layout
+export default Layout;

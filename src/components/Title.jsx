@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
 
-function Title({title, bg = "#F0DA6A"}) {
+function Title({ title, bg = "#F0DA6A", className }) {
   return (
-    <span className='rounded-full px-7 py-2' style={{background: bg}}>{title}</span>
-  )
+    <span
+      className={`rounded-full px-7 py-2 ${className}`}
+      style={{ background: bg }}
+    >
+      {title}
+    </span>
+  );
 }
 
-export default Title
+export default Title;

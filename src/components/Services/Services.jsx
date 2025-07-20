@@ -17,7 +17,7 @@ function Services() {
         <div className="container mx-auto">
             <div className='flex flex-col items-center pb-16'> 
                 <Title title={"Our Services"} />
-                <TitleDes titleDes={"Begin Your Health Journey With Key Wellness Services"} className= "w-[80%]"/>
+                <TitleDes titleDes={"Begin Your Health Journey With Key Wellness Services"} className= "w-[80%] "/>
             </div>
             <div className='grid md:grid-cols-3 lg:grid-cols-4 gap-5'>
               <ServiceCard icon={<WomenCare />} cardTitle={"Women's Health"} bollatPoints={"Pap Smears, Breast Exams, Family Planning"} cardDescription={"Focused on preventive care and overall well-being"} imageBgColor={"#b0c6fc"}/>

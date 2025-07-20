@@ -1,0 +1,2752 @@
+"doctorsList": [
+    {
+      "id": "1",
+      "name": "Dr. Ahsan Habib",
+      "email": "dr._ahsan_habib@example.com",
+      "password": "",
+      "phone": "01710000000",
+      "gender": "Male",
+      "photo": "https://i.ibb.co.com/G30t1SbL/Ahsan-Habib.jpg",
+      "specialization": "Cardiologist",
+      "experience": 5,
+      "education": "MBBS, Cardiologist Specialist",
+      "bio": "Dr. Ahsan Habib is a highly skilled Cardiologist with over five years of experience in diagnosing and treating heart conditions. He is dedicated to providing exceptional care to his patients, ensuring they receive personalized treatment plans tailored to their needs. With a deep passion for cardiology, Dr. Habib stays updated with the latest medical advancements to offer the best possible care for his patients' heart health.",
+      "address": {
+        "clinic": "Dhaka Medical College",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "08:00 AM", "endTime": "11:00 AM" }]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [{ "startTime": "09:00 AM", "endTime": "12:00 PM" }]
+        },
+        {
+          "day": "Friday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1000,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.5,
+        "totalReviews": 120
+      },
+      "stats": {
+        "totalAppointments": 300,
+        "completedAppointments": 290,
+        "cancelledAppointments": 5,
+        "noShows": 5
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "2",
+      "name": "Dr. Farzana Rahman",
+      "email": "dr._farzana_rahman@example.com",
+      "password": "",
+      "phone": "01710000001",
+      "gender": "Female",
+      "photo": "https://i.ibb.co.com/NgLNsvDd/Farzana-Rahman.jpg",
+      "specialization": "Dermatologist",
+      "experience": 6,
+      "education": "MBBS, Dermatologist Specialist",
+      "bio": "Dr. Farzana Rahman is an experienced Dermatologist with expertise in treating various conditions.",
+      "address": {
+        "clinic": "Square Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Tuesday",
+          "slots": [{ "startTime": "08:30 AM", "endTime": "11:30 AM" }]
+        },
+        {
+          "day": "Thursday",
+          "slots": [{ "startTime": "09:30 AM", "endTime": "12:30 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "11:00 AM", "endTime": "02:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1200,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.7,
+        "totalReviews": 90
+      },
+      "stats": {
+        "totalAppointments": 200,
+        "completedAppointments": 190,
+        "cancelledAppointments": 4,
+        "noShows": 6
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "3",
+      "name": "Dr. Imran Hossain",
+      "email": "dr._imran_hossain@example.com",
+      "password": "",
+      "phone": "01710000002",
+      "gender": "Male",
+      "photo": "https://i.ibb.co.com/6c6fhS8F/Imran-Hossain.jpg",
+      "specialization": "orthopedic-surgeon",
+      "experience": 7,
+      "education": "MBBS, Orthopedic Surgeon Specialist",
+      "bio": "Dr. Imran Hossain is an experienced Orthopedic Surgeon with expertise in treating various conditions.",
+      "address": {
+        "clinic": "United Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "08:00 AM", "endTime": "11:00 AM" }]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [{ "startTime": "09:30 AM", "endTime": "12:30 PM" }]
+        },
+        {
+          "day": "Friday",
+          "slots": [{ "startTime": "10:30 AM", "endTime": "01:30 PM" }]
+        }
+      ],
+      "appointmentFee": 1100,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.6,
+        "totalReviews": 85
+      },
+      "stats": {
+        "totalAppointments": 250,
+        "completedAppointments": 240,
+        "cancelledAppointments": 6,
+        "noShows": 4
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "4",
+      "name": "Dr. Nusrat Jahan",
+      "email": "dr._nusrat_jahan@example.com",
+      "password": "",
+      "phone": "01710000003",
+      "gender": "Female",
+      "photo": "https://i.ibb.co.com/jZqhvjgb/Nusrat-Jahan.jpg",
+      "specialization": "Pediatrician",
+      "experience": 8,
+      "education": "MBBS, Pediatrician Specialist",
+      "bio": "Dr. Nusrat Jahan is an experienced Pediatrician with expertise in treating various conditions.",
+      "address": {
+        "clinic": "Apollo Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Tuesday",
+          "slots": [{ "startTime": "08:30 AM", "endTime": "11:30 AM" }]
+        },
+        {
+          "day": "Thursday",
+          "slots": [{ "startTime": "09:00 AM", "endTime": "12:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1300,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.8,
+        "totalReviews": 110
+      },
+      "stats": {
+        "totalAppointments": 220,
+        "completedAppointments": 210,
+        "cancelledAppointments": 7,
+        "noShows": 3
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "5",
+      "name": "Dr. Hasan Mahmud",
+      "email": "dr._hasan_mahmud@example.com",
+      "password": "",
+      "phone": "01710000004",
+      "gender": "Male",
+      "photo": "https://i.ibb.co.com/RpCSGKKv/Hasan-Mahmud.jpg",
+      "specialization": "Neurologist",
+      "experience": 9,
+      "education": "MBBS, Neurologist Specialist",
+      "bio": "Dr. Hasan Mahmud is an experienced Neurologist with expertise in treating various conditions.",
+      "address": {
+        "clinic": "Bangabandhu Sheikh Mujib Medical University",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        },
+        {
+          "day": "Tuesday",
+          "slots": [{ "startTime": "11:00 AM", "endTime": "02:00 PM" }]
+        },
+        {
+          "day": "Thursday",
+          "slots": [{ "startTime": "09:00 AM", "endTime": "12:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1500,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.9,
+        "totalReviews": 150
+      },
+      "stats": {
+        "totalAppointments": 350,
+        "completedAppointments": 340,
+        "cancelledAppointments": 3,
+        "noShows": 7
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "6",
+      "name": "Dr. Tanvir Ahmed",
+      "email": "dr._tanvir_ahmed@example.com",
+      "password": "",
+      "phone": "01710000005",
+      "gender": "Male",
+      "photo": "https://i.ibb.co.com/qYWSq4gQ/Tanvir-Ahmed.jpg",
+      "specialization": "ent-specialist",
+      "experience": 10,
+      "education": "MBBS, ENT Specialist",
+      "bio": "Dr. Tanvir Ahmed is an experienced ENT Specialist with expertise in treating various conditions.",
+      "address": {
+        "clinic": "Popular Diagnostic Center",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "09:00 AM", "endTime": "12:00 PM" }]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        },
+        {
+          "day": "Friday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1600,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.6,
+        "totalReviews": 100
+      },
+      "stats": {
+        "totalAppointments": 280,
+        "completedAppointments": 270,
+        "cancelledAppointments": 6,
+        "noShows": 4
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "7",
+      "name": "Dr. Saima Akter",
+      "email": "dr._saima_akter@example.com",
+      "password": "",
+      "phone": "01710000006",
+      "gender": "Female",
+      "photo": "https://i.ibb.co.com/svc7VKTZ/Saima-Akter.jpg",
+      "specialization": "general-surgeon",
+      "experience": 11,
+      "education": "MBBS, General Surgeon Specialist",
+      "bio": "Dr. Saima Akter is an experienced General Surgeon with expertise in treating various conditions.",
+      "address": {
+        "clinic": "Ibn Sina Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Tuesday",
+          "slots": [{ "startTime": "08:00 AM", "endTime": "11:00 AM" }]
+        },
+        {
+          "day": "Thursday",
+          "slots": [{ "startTime": "09:00 AM", "endTime": "12:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1400,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.7,
+        "totalReviews": 115
+      },
+      "stats": {
+        "totalAppointments": 320,
+        "completedAppointments": 310,
+        "cancelledAppointments": 4,
+        "noShows": 6
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "8",
+      "name": "Dr. Rafiq Ullah",
+      "email": "dr._rafiq_ullah@example.com",
+      "password": "",
+      "phone": "01710000007",
+      "gender": "Male",
+      "photo": "https://i.ibb.co.com/nNtHzW29/Rafiq-Ullah.jpg",
+      "specialization": "Endocrinologist",
+      "experience": 12,
+      "education": "MBBS, Endocrinologist Specialist",
+      "bio": "Dr. Rafiq Ullah is an experienced Endocrinologist with expertise in treating various conditions.",
+      "address": {
+        "clinic": "Evercare Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "08:30 AM", "endTime": "11:30 AM" }]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [{ "startTime": "09:30 AM", "endTime": "12:30 PM" }]
+        },
+        {
+          "day": "Friday",
+          "slots": [{ "startTime": "10:30 AM", "endTime": "01:30 PM" }]
+        }
+      ],
+      "appointmentFee": 1700,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.8,
+        "totalReviews": 130
+      },
+      "stats": {
+        "totalAppointments": 350,
+        "completedAppointments": 340,
+        "cancelledAppointments": 4,
+        "noShows": 6
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "9",
+      "name": "Dr. Sabrina Khan",
+      "email": "dr._sabrina_khan@example.com",
+      "password": "",
+      "phone": "01710000008",
+      "gender": "Female",
+      "photo": "https://i.ibb.co.com/23ZdNFkd/Sabrina-Khan.jpg",
+      "specialization": "Oncologist",
+      "experience": 13,
+      "education": "MBBS, Oncologist Specialist",
+      "bio": "Dr. Sabrina Khan is an experienced Oncologist with expertise in treating various conditions.",
+      "address": {
+        "clinic": "Labaid Specialized Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Tuesday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        },
+        {
+          "day": "Thursday",
+          "slots": [{ "startTime": "11:00 AM", "endTime": "02:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "12:00 PM", "endTime": "03:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1800,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.9,
+        "totalReviews": 140
+      },
+      "stats": {
+        "totalAppointments": 400,
+        "completedAppointments": 390,
+        "cancelledAppointments": 5,
+        "noShows": 5
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "10",
+      "name": "Dr. Kamrul Islam",
+      "email": "dr._kamrul_islam@example.com",
+      "password": "",
+      "phone": "01710000009",
+      "gender": "Male",
+      "photo": "https://i.ibb.co.com/204RR2K8/Kamrul-Islam.jpg",
+      "specialization": "Gastroenterologist",
+      "experience": 14,
+      "education": "MBBS, Gastroenterologist Specialist",
+      "bio": "Dr. Kamrul Islam is an experienced Gastroenterologist with expertise in treating various conditions.",
+      "address": {
+        "clinic": "Mitford Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [{ "startTime": "01:00 PM", "endTime": "04:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "03:00 PM", "endTime": "06:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1900,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.9,
+        "totalReviews": 160
+      },
+      "stats": {
+        "totalAppointments": 450,
+        "completedAppointments": 440,
+        "cancelledAppointments": 5,
+        "noShows": 5
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "11",
+      "name": "Dr. Nazmul Huda",
+      "email": "dr._nazmul_huda@example.com",
+      "password": "",
+      "phone": "01710000010",
+      "gender": "Male",
+      "photo": "https://i.ibb.co.com/JR7Nw35y/Nazmul-Huda.jpg",
+      "specialization": "Nephrologist",
+      "experience": 15,
+      "education": "MBBS, Nephrologist Specialist",
+      "bio": "Dr. Nazmul Huda is an experienced Nephrologist with expertise in treating various conditions.",
+      "address": {
+        "clinic": "Dhaka Medical College",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Tuesday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Thursday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        },
+        {
+          "day": "Friday",
+          "slots": [{ "startTime": "04:00 PM", "endTime": "07:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1200,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.5,
+        "totalReviews": 110
+      },
+      "stats": {
+        "totalAppointments": 300,
+        "completedAppointments": 290,
+        "cancelledAppointments": 4,
+        "noShows": 6
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "12",
+      "name": "Dr. Tania Sultana",
+      "email": "dr._tania_sultana@example.com",
+      "password": "",
+      "phone": "01710000011",
+      "gender": "Female",
+      "photo": "https://i.ibb.co.com/8nSRnBjp/Tania-Sultana.jpg",
+      "specialization": "Psychiatrist",
+      "experience": 16,
+      "education": "MBBS, Psychiatrist Specialist",
+      "bio": "Dr. Tania Sultana is an experienced Psychiatrist with expertise in treating various conditions.",
+      "address": {
+        "clinic": "Square Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "11:00 AM", "endTime": "02:00 PM" }]
+        },
+        {
+          "day": "Thursday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "03:00 PM", "endTime": "06:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1400,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.6,
+        "totalReviews": 95
+      },
+      "stats": {
+        "totalAppointments": 250,
+        "completedAppointments": 240,
+        "cancelledAppointments": 5,
+        "noShows": 5
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "13",
+      "name": "Dr. Arifur Rahman",
+      "email": "dr._arifur_rahman@example.com",
+      "password": "",
+      "phone": "01710000012",
+      "gender": "Male",
+      "photo": "https://i.ibb.co.com/Vcjk0wbw/Arifur-Rahman.jpg",
+      "specialization": "Rheumatologist",
+      "experience": 17,
+      "education": "MBBS, Rheumatologist Specialist",
+      "bio": "Dr. Arifur Rahman is an experienced Rheumatologist with expertise in treating various conditions.",
+      "address": {
+        "clinic": "United Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Tuesday",
+          "slots": [{ "startTime": "03:00 PM", "endTime": "06:00 PM" }]
+        },
+        {
+          "day": "Thursday",
+          "slots": [{ "startTime": "01:00 PM", "endTime": "04:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "11:00 AM", "endTime": "02:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1500,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.8,
+        "totalReviews": 105
+      },
+      "stats": {
+        "totalAppointments": 350,
+        "completedAppointments": 340,
+        "cancelledAppointments": 6,
+        "noShows": 4
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "14",
+      "name": "Dr. Mahbuba Haque",
+      "email": "dr._mahbuba_haque@example.com",
+      "password": "",
+      "phone": "01710000013",
+      "gender": "Female",
+      "photo": "https://i.ibb.co.com/CsKxBd6T/Mahbuba-Haque.jpg",
+      "specialization": "Pulmonologist",
+      "experience": 18,
+      "education": "MBBS, Pulmonologist Specialist",
+      "bio": "Dr. Mahbuba Haque is an experienced Pulmonologist with expertise in treating various conditions.",
+      "address": {
+        "clinic": "Apollo Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [{ "startTime": "03:00 PM", "endTime": "06:00 PM" }]
+        },
+        {
+          "day": "Friday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1600,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.7,
+        "totalReviews": 125
+      },
+      "stats": {
+        "totalAppointments": 400,
+        "completedAppointments": 390,
+        "cancelledAppointments": 7,
+        "noShows": 6
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "15",
+      "name": "Dr. Khaled Mahmud",
+      "email": "dr._khaled_mahmud@example.com",
+      "password": "",
+      "phone": "01710000014",
+      "gender": "Male",
+      "photo": "https://i.ibb.co.com/FN97GmT/Khaled-Mahmud.jpg",
+      "specialization": "Hematologist",
+      "experience": 19,
+      "education": "MBBS, Hematologist Specialist",
+      "bio": "Dr. Khaled Mahmud is an experienced Hematologist with expertise in treating various conditions.",
+      "address": {
+        "clinic": "Bangabandhu Sheikh Mujib Medical University",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "11:00 AM", "endTime": "02:00 PM" }]
+        },
+        {
+          "day": "Tuesday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Friday",
+          "slots": [{ "startTime": "03:00 PM", "endTime": "06:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1700,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.9,
+        "totalReviews": 140
+      },
+      "stats": {
+        "totalAppointments": 450,
+        "completedAppointments": 440,
+        "cancelledAppointments": 6,
+        "noShows": 4
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "16",
+      "name": "Dr. Sumaiya Chowdhury",
+      "email": "dr._sumaiya_chowdhury@example.com",
+      "password": "",
+      "phone": "01710000015",
+      "gender": "Female",
+      "photo": "https://i.ibb.co.com/jP7jqQ9d/Sumaiya-Chowdhury.jpg",
+      "specialization": "Urologist",
+      "experience": 5,
+      "education": "MBBS, Urologist Specialist",
+      "bio": "Dr. Sumaiya Chowdhury is an experienced Urologist with expertise in treating various conditions.",
+      "address": {
+        "clinic": "Popular Diagnostic Center",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [{ "startTime": "01:00 PM", "endTime": "04:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1500,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.5,
+        "totalReviews": 85
+      },
+      "stats": {
+        "totalAppointments": 220,
+        "completedAppointments": 210,
+        "cancelledAppointments": 5,
+        "noShows": 5
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "17",
+      "name": "Dr. Asif Anwar",
+      "email": "dr._asif_anwar@example.com",
+      "password": "",
+      "phone": "01710000016",
+      "gender": "Male",
+      "photo": "https://i.ibb.co.com/zTmKsTLV/Asif-Anwar.jpg",
+      "specialization": "Gynecologist",
+      "experience": 6,
+      "education": "MBBS, Gynecologist Specialist",
+      "bio": "Dr. Asif Anwar is an experienced Gynecologist with expertise in treating various conditions.",
+      "address": {
+        "clinic": "Ibn Sina Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "04:00 PM", "endTime": "07:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1700,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.8,
+        "totalReviews": 90
+      },
+      "stats": {
+        "totalAppointments": 250,
+        "completedAppointments": 240,
+        "cancelledAppointments": 6,
+        "noShows": 4
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "18",
+      "name": "Dr. Selina Parvin",
+      "email": "dr._selina_parvin@example.com",
+      "password": "",
+      "phone": "01710000017",
+      "gender": "Female",
+      "photo": "https://i.ibb.co.com/3Y9xCNH0/Selina-Parvin.jpg",
+      "specialization": "Ophthalmologist",
+      "experience": 7,
+      "education": "MBBS, Ophthalmologist Specialist",
+      "bio": "Dr. Selina Parvin is an experienced Ophthalmologist with expertise in treating various conditions.",
+      "address": {
+        "clinic": "Evercare Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "12:00 PM", "endTime": "03:00 PM" }]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [{ "startTime": "03:00 PM", "endTime": "06:00 PM" }]
+        },
+        {
+          "day": "Friday",
+          "slots": [{ "startTime": "04:00 PM", "endTime": "07:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1500,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.6,
+        "totalReviews": 115
+      },
+      "stats": {
+        "totalAppointments": 320,
+        "completedAppointments": 310,
+        "cancelledAppointments": 5,
+        "noShows": 5
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "19",
+      "name": "Dr. Rahat Hossain",
+      "email": "dr._rahat_hossain@example.com",
+      "password": "",
+      "phone": "01710000018",
+      "gender": "Male",
+      "photo": "https://i.ibb.co.com/23GKmr6f/Rahat-Hossain.jpg",
+      "specialization": "Radiologist",
+      "experience": 8,
+      "education": "MBBS, Radiologist Specialist",
+      "bio": "Dr. Rahat Hossain is an experienced Radiologist with expertise in treating various conditions.",
+      "address": {
+        "clinic": "Labaid Specialized Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Tuesday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Thursday",
+          "slots": [{ "startTime": "11:00 AM", "endTime": "02:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "03:00 PM", "endTime": "06:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1600,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.7,
+        "totalReviews": 105
+      },
+      "stats": {
+        "totalAppointments": 300,
+        "completedAppointments": 290,
+        "cancelledAppointments": 6,
+        "noShows": 4
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "20",
+      "name": "Dr. Sharmin Akter",
+      "email": "dr._sharmin_akter@example.com",
+      "password": "",
+      "phone": "01710000019",
+      "gender": "Female",
+      "photo": "https://i.ibb.co.com/MyxyC4F4/Sharmin-Akter.jpg",
+      "specialization": "Anesthesiologist",
+      "experience": 9,
+      "education": "MBBS, Anesthesiologist Specialist",
+      "bio": "Dr. Sharmin Akter is an experienced Anesthesiologist with expertise in treating various conditions.",
+      "address": {
+        "clinic": "Mitford Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        },
+        {
+          "day": "Thursday",
+          "slots": [{ "startTime": "03:00 PM", "endTime": "06:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "11:00 AM", "endTime": "02:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1800,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.6,
+        "totalReviews": 110
+      },
+      "stats": {
+        "totalAppointments": 330,
+        "completedAppointments": 320,
+        "cancelledAppointments": 5,
+        "noShows": 5
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "21",
+      "name": "Dr. Monirul Islam",
+      "email": "dr._monirul_islam@example.com",
+      "password": "",
+      "phone": "01710000020",
+      "gender": "Male",
+      "photo": "https://i.ibb.co.com/TqTtWS9Y/Monirul-Islam.jpg",
+      "specialization": "Cardiologist",
+      "experience": 10,
+      "education": "MBBS, Cardiologist Specialist",
+      "bio": "Dr. Monirul Islam is an experienced Cardiologist with expertise in treating various conditions.",
+      "address": {
+        "clinic": "Dhaka Medical College",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [{ "startTime": "03:00 PM", "endTime": "06:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1900,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.7,
+        "totalReviews": 115
+      },
+      "stats": {
+        "totalAppointments": 380,
+        "completedAppointments": 370,
+        "cancelledAppointments": 5,
+        "noShows": 5
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "22",
+      "name": "Dr. Shaila Jahan",
+      "email": "dr._shaila_jahan@example.com",
+      "password": "",
+      "phone": "01710000021",
+      "gender": "Female",
+      "photo": "https://i.ibb.co.com/4g2mHGwv/Shaila-Jahan.jpg",
+      "specialization": "Dermatologist",
+      "experience": 11,
+      "education": "MBBS, Dermatologist Specialist",
+      "bio": "Dr. Shaila Jahan is an experienced Dermatologist with expertise in treating various conditions.",
+      "address": {
+        "clinic": "Square Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Thursday",
+          "slots": [{ "startTime": "03:00 PM", "endTime": "06:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1600,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.8,
+        "totalReviews": 125
+      },
+      "stats": {
+        "totalAppointments": 350,
+        "completedAppointments": 340,
+        "cancelledAppointments": 5,
+        "noShows": 5
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "23",
+      "name": "Dr. Zahid Hossain",
+      "email": "dr._zahid_hossain@example.com",
+      "password": "",
+      "phone": "01710000022",
+      "gender": "Male",
+      "photo": "https://i.ibb.co.com/6054nwv2/Zahid-Hossain.jpg",
+      "specialization": "orthopedic-surgeon",
+      "experience": 12,
+      "education": "MBBS, Orthopedic Surgeon Specialist",
+      "bio": "Dr. Zahid Hossain is an experienced Orthopedic Surgeon with expertise in treating various conditions.",
+      "address": {
+        "clinic": "United Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Tuesday",
+          "slots": [{ "startTime": "11:00 AM", "endTime": "02:00 PM" }]
+        },
+        {
+          "day": "Thursday",
+          "slots": [{ "startTime": "01:00 PM", "endTime": "04:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "03:00 PM", "endTime": "06:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1800,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.9,
+        "totalReviews": 140
+      },
+      "stats": {
+        "totalAppointments": 420,
+        "completedAppointments": 410,
+        "cancelledAppointments": 6,
+        "noShows": 4
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "24",
+      "name": "Dr. Afreen Sultana",
+      "email": "dr._afreen_sultana@example.com",
+      "password": "",
+      "phone": "01710000023",
+      "gender": "Female",
+      "photo": "https://i.ibb.co.com/7dWbpCkp/Afreen-Sultana.jpg",
+      "specialization": "Pediatrician",
+      "experience": 13,
+      "education": "MBBS, Pediatrician Specialist",
+      "bio": "Dr. Afreen Sultana is an experienced Pediatrician with expertise in treating various conditions.",
+      "address": {
+        "clinic": "Apollo Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Tuesday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [{ "startTime": "03:00 PM", "endTime": "06:00 PM" }]
+        },
+        {
+          "day": "Friday",
+          "slots": [{ "startTime": "11:00 AM", "endTime": "02:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1900,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.7,
+        "totalReviews": 130
+      },
+      "stats": {
+        "totalAppointments": 450,
+        "completedAppointments": 440,
+        "cancelledAppointments": 6,
+        "noShows": 4
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "25",
+      "name": "Dr. Bashir Ahmed",
+      "email": "dr._bashir_ahmed@example.com",
+      "password": "",
+      "phone": "01710000024",
+      "gender": "Male",
+      "photo": "https://i.ibb.co.com/93vfXFSC/Bashir-Ahmed.jpg",
+      "specialization": "Neurologist",
+      "experience": 14,
+      "education": "MBBS, Neurologist Specialist",
+      "bio": "Dr. Bashir Ahmed is an experienced Neurologist with expertise in treating various conditions.",
+      "address": {
+        "clinic": "Bangabandhu Sheikh Mujib Medical University",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "11:00 AM", "endTime": "02:00 PM" }]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "09:00 AM", "endTime": "12:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1800,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.8,
+        "totalReviews": 140
+      },
+      "stats": {
+        "totalAppointments": 370,
+        "completedAppointments": 360,
+        "cancelledAppointments": 5,
+        "noShows": 5
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "26",
+      "name": "Dr. Naima Rahman",
+      "email": "dr._naima_rahman@example.com",
+      "password": "",
+      "phone": "01710000025",
+      "gender": "Female",
+      "photo": "https://i.ibb.co.com/tTn2kcv7/Naima-Rahaman.png",
+      "specialization": "ent-specialist",
+      "experience": 15,
+      "education": "MBBS, ENT Specialist",
+      "bio": "Dr. Naima Rahman is an experienced ENT Specialist with expertise in treating various conditions.",
+      "address": {
+        "clinic": "Popular Diagnostic Center",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Tuesday",
+          "slots": [{ "startTime": "03:00 PM", "endTime": "06:00 PM" }]
+        },
+        {
+          "day": "Thursday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "01:00 PM", "endTime": "04:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1700,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.6,
+        "totalReviews": 105
+      },
+      "stats": {
+        "totalAppointments": 330,
+        "completedAppointments": 320,
+        "cancelledAppointments": 4,
+        "noShows": 6
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "27",
+      "name": "Dr. Zubair Khan",
+      "email": "dr._zubair_khan@example.com",
+      "password": "",
+      "phone": "01710000026",
+      "gender": "Male",
+      "photo": "https://i.ibb.co.com/6RBmzFVy/Zubair-Khan.jpg",
+      "specialization": "general-surgeon",
+      "experience": 16,
+      "education": "MBBS, General Surgeon Specialist",
+      "bio": "Dr. Zubair Khan is an experienced General Surgeon with expertise in treating various conditions.",
+      "address": {
+        "clinic": "Ibn Sina Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "12:00 PM", "endTime": "03:00 PM" }]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Friday",
+          "slots": [{ "startTime": "11:00 AM", "endTime": "02:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1800,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.7,
+        "totalReviews": 120
+      },
+      "stats": {
+        "totalAppointments": 400,
+        "completedAppointments": 390,
+        "cancelledAppointments": 5,
+        "noShows": 5
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "28",
+      "name": "Dr. Laila Yasmin",
+      "email": "dr._laila_yasmin@example.com",
+      "password": "",
+      "phone": "01710000027",
+      "gender": "Female",
+      "photo": "https://i.ibb.co.com/ZR4TM9L2/Laila-Yasmin.jpg",
+      "specialization": "Endocrinologist",
+      "experience": 17,
+      "education": "MBBS, Endocrinologist Specialist",
+      "bio": "Dr. Laila Yasmin is an experienced Endocrinologist with expertise in treating various conditions.",
+      "address": {
+        "clinic": "Evercare Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Tuesday",
+          "slots": [{ "startTime": "03:00 PM", "endTime": "06:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1700,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.8,
+        "totalReviews": 130
+      },
+      "stats": {
+        "totalAppointments": 420,
+        "completedAppointments": 410,
+        "cancelledAppointments": 6,
+        "noShows": 5
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "29",
+      "name": "Dr. Hasanuzzaman",
+      "email": "dr._hasanuzzaman@example.com",
+      "password": "",
+      "phone": "01710000028",
+      "gender": "Male",
+      "photo": "https://i.ibb.co.com/d4y7Q1gQ/Hasanuzzaman.jpg",
+      "specialization": "Oncologist",
+      "experience": 18,
+      "education": "MBBS, Oncologist Specialist",
+      "bio": "Dr. Hasanuzzaman is an experienced Oncologist with expertise in treating various conditions.",
+      "address": {
+        "clinic": "Labaid Specialized Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Tuesday",
+          "slots": [{ "startTime": "11:00 AM", "endTime": "02:00 PM" }]
+        },
+        {
+          "day": "Thursday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "01:00 PM", "endTime": "04:00 PM" }]
+        }
+      ],
+      "appointmentFee": 2000,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.9,
+        "totalReviews": 145
+      },
+      "stats": {
+        "totalAppointments": 480,
+        "completedAppointments": 470,
+        "cancelledAppointments": 5,
+        "noShows": 5
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "30",
+      "name": "Dr. Mahfuzur Rahman",
+      "email": "dr._mahfuzur_rahman@example.com",
+      "password": "",
+      "phone": "01710000029",
+      "gender": "Male",
+      "photo": "https://i.ibb.co.com/B2gPSJLg/Mahfuzur-Rahman.jpg",
+      "specialization": "Gastroenterologist",
+      "experience": 19,
+      "education": "MBBS, Gastroenterologist Specialist",
+      "bio": "Dr. Mahfuzur Rahman is an experienced Gastroenterologist with expertise in treating various conditions.",
+      "address": {
+        "clinic": "Mitford Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [{ "startTime": "03:00 PM", "endTime": "06:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1900,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.7,
+        "totalReviews": 130
+      },
+      "stats": {
+        "totalAppointments": 460,
+        "completedAppointments": 450,
+        "cancelledAppointments": 6,
+        "noShows": 4
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "31",
+      "name": "Dr. Nazia Haque",
+      "email": "dr._nazia_haque@example.com",
+      "password": "",
+      "phone": "01710000030",
+      "gender": "Female",
+      "photo": "https://i.ibb.co.com/M4m26FX/Nazia-Haque.jpg",
+      "specialization": "Nephrologist",
+      "experience": 5,
+      "education": "MBBS, Nephrologist Specialist",
+      "bio": "Dr. Nazia Haque is an experienced Nephrologist with expertise in treating various conditions.",
+      "address": {
+        "clinic": "Dhaka Medical College",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Tuesday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        },
+        {
+          "day": "Thursday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "11:00 AM", "endTime": "02:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1600,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.6,
+        "totalReviews": 105
+      },
+      "stats": {
+        "totalAppointments": 270,
+        "completedAppointments": 260,
+        "cancelledAppointments": 7,
+        "noShows": 5
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "32",
+      "name": "Dr. Tariq Mahmood",
+      "email": "dr._tariq_mahmood@example.com",
+      "password": "",
+      "phone": "01710000031",
+      "gender": "Male",
+      "photo": "https://i.ibb.co.com/6z0kzyP/Tariq-Mahmood.jpg",
+      "specialization": "Psychiatrist",
+      "experience": 6,
+      "education": "MBBS, Psychiatrist Specialist",
+      "bio": "Dr. Tariq Mahmood is an experienced Psychiatrist with expertise in treating various conditions.",
+      "address": {
+        "clinic": "Square Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "03:00 PM", "endTime": "06:00 PM" }]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Friday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1500,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.7,
+        "totalReviews": 110
+      },
+      "stats": {
+        "totalAppointments": 280,
+        "completedAppointments": 270,
+        "cancelledAppointments": 6,
+        "noShows": 4
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "33",
+      "name": "Dr. Sultana Jahan",
+      "email": "dr._sultana_jahan@example.com",
+      "password": "",
+      "phone": "01710000032",
+      "gender": "Female",
+      "photo": "https://i.ibb.co.com/4nHJKzwX/Sultana-Jahan.jpg",
+      "specialization": "Rheumatologist",
+      "experience": 7,
+      "education": "MBBS, Rheumatologist Specialist",
+      "bio": "Dr. Sultana Jahan is an experienced Rheumatologist with expertise in treating various conditions.",
+      "address": {
+        "clinic": "United Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Tuesday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Thursday",
+          "slots": [{ "startTime": "03:00 PM", "endTime": "06:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "09:00 AM", "endTime": "12:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1700,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.7,
+        "totalReviews": 125
+      },
+      "stats": {
+        "totalAppointments": 350,
+        "completedAppointments": 340,
+        "cancelledAppointments": 5,
+        "noShows": 5
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "34",
+      "name": "Dr. Khalid Bin Hasan",
+      "email": "dr._khalid_bin_hasan@example.com",
+      "password": "",
+      "phone": "01710000033",
+      "gender": "Male",
+      "photo": "https://i.ibb.co.com/Nnd6RcsC/Khalid-Hasan.jpg",
+      "specialization": "Pulmonologist",
+      "experience": 8,
+      "education": "MBBS, Pulmonologist Specialist",
+      "bio": "Dr. Khalid Bin Hasan is an experienced Pulmonologist with expertise in treating various conditions.",
+      "address": {
+        "clinic": "Apollo Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "11:00 AM", "endTime": "02:00 PM" }]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "01:00 PM", "endTime": "04:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1600,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.6,
+        "totalReviews": 110
+      },
+      "stats": {
+        "totalAppointments": 380,
+        "completedAppointments": 370,
+        "cancelledAppointments": 6,
+        "noShows": 4
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "35",
+      "name": "Dr. Ayesha Siddique",
+      "email": "dr._ayesha_siddique@example.com",
+      "password": "",
+      "phone": "01710000034",
+      "gender": "Female",
+      "photo": "https://i.ibb.co.com/rRMF7y74/Ayesha-Siddique.jpg",
+      "specialization": "Hematologist",
+      "experience": 9,
+      "education": "MBBS, Hematologist Specialist",
+      "bio": "Dr. Ayesha Siddique is an experienced Hematologist with expertise in treating various conditions.",
+      "address": {
+        "clinic": "Bangabandhu Sheikh Mujib Medical University",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Tuesday",
+          "slots": [{ "startTime": "12:00 PM", "endTime": "03:00 PM" }]
+        },
+        {
+          "day": "Thursday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        }
+      ],
+      "appointmentFee": 2000,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.8,
+        "totalReviews": 150
+      },
+      "stats": {
+        "totalAppointments": 430,
+        "completedAppointments": 420,
+        "cancelledAppointments": 6,
+        "noShows": 4
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "36",
+      "name": "Dr. Anwar Hossain",
+      "email": "dr._anwar_hossain@example.com",
+      "password": "",
+      "phone": "01710000035",
+      "gender": "Male",
+      "photo": "https://i.ibb.co.com/5xMCMBvW/Anwar-Hossain.jpg",
+      "specialization": "Urologist",
+      "experience": 10,
+      "education": "MBBS, Urologist Specialist",
+      "bio": "Dr. Anwar Hossain is an experienced Urologist with expertise in treating various conditions.",
+      "address": {
+        "clinic": "Popular Diagnostic Center",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "09:00 AM", "endTime": "12:00 PM" }]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "11:00 AM", "endTime": "02:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1900,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.7,
+        "totalReviews": 120
+      },
+      "stats": {
+        "totalAppointments": 380,
+        "completedAppointments": 370,
+        "cancelledAppointments": 5,
+        "noShows": 5
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "37",
+      "name": "Dr. Maria Ferdous",
+      "email": "dr._maria_ferdous@example.com",
+      "password": "",
+      "phone": "01710000036",
+      "gender": "Female",
+      "photo": "https://i.ibb.co.com/nMbdhTrp/Maria-Ferdous.jpg",
+      "specialization": "Gynecologist",
+      "experience": 11,
+      "education": "MBBS, Gynecologist Specialist",
+      "bio": "Dr. Maria Ferdous is an experienced Gynecologist with expertise in treating various conditions.",
+      "address": {
+        "clinic": "Ibn Sina Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Tuesday",
+          "slots": [{ "startTime": "01:00 PM", "endTime": "04:00 PM" }]
+        },
+        {
+          "day": "Thursday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "04:00 PM", "endTime": "07:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1700,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.8,
+        "totalReviews": 130
+      },
+      "stats": {
+        "totalAppointments": 360,
+        "completedAppointments": 350,
+        "cancelledAppointments": 6,
+        "noShows": 4
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "38",
+      "name": "Dr. Habibur Rahman",
+      "email": "dr._habibur_rahman@example.com",
+      "password": "",
+      "phone": "01710000037",
+      "gender": "Male",
+      "photo": "https://i.ibb.co.com/G3dNfKvH/Habibur-Rahman.jpg",
+      "specialization": "Ophthalmologist",
+      "experience": 12,
+      "education": "MBBS, Ophthalmologist Specialist",
+      "bio": "Dr. Habibur Rahman is an experienced Ophthalmologist with expertise in treating various conditions.",
+      "address": {
+        "clinic": "Evercare Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [{ "startTime": "03:00 PM", "endTime": "06:00 PM" }]
+        },
+        {
+          "day": "Friday",
+          "slots": [{ "startTime": "09:00 AM", "endTime": "12:00 PM" }]
+        }
+      ],
+      "appointmentFee": 2000,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.9,
+        "totalReviews": 150
+      },
+      "stats": {
+        "totalAppointments": 420,
+        "completedAppointments": 410,
+        "cancelledAppointments": 6,
+        "noShows": 5
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "39",
+      "name": "Dr. Kaniz Fatema",
+      "email": "dr._kaniz_fatema@example.com",
+      "password": "",
+      "phone": "01710000038",
+      "gender": "Female",
+      "photo": "https://i.ibb.co.com/tMLwPbDd/Kaniz-Fatema.jpg",
+      "specialization": "Radiologist",
+      "experience": 13,
+      "education": "MBBS, Radiologist Specialist",
+      "bio": "Dr. Kaniz Fatema is an experienced Radiologist with expertise in treating various conditions.",
+      "address": {
+        "clinic": "Labaid Specialized Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Tuesday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Thursday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "04:00 PM", "endTime": "07:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1900,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.8,
+        "totalReviews": 140
+      },
+      "stats": {
+        "totalAppointments": 450,
+        "completedAppointments": 440,
+        "cancelledAppointments": 6,
+        "noShows": 4
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "40",
+      "name": "Dr. Abdullah Al Mamun",
+      "email": "dr._abdullah_al_mamun@example.com",
+      "password": "",
+      "phone": "01710000039",
+      "gender": "Male",
+      "photo": "https://i.ibb.co.com/60rJf401/Abdullah-Mamun.jpg",
+      "specialization": "Anesthesiologist",
+      "experience": 14,
+      "education": "MBBS, Anesthesiologist Specialist",
+      "bio": "Dr. Abdullah Al Mamun is an experienced Anesthesiologist with expertise in treating various conditions.",
+      "address": {
+        "clinic": "Mitford Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "03:00 PM", "endTime": "06:00 PM" }]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        },
+        {
+          "day": "Friday",
+          "slots": [{ "startTime": "01:00 PM", "endTime": "04:00 PM" }]
+        }
+      ],
+      "appointmentFee": 2000,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.9,
+        "totalReviews": 160
+      },
+      "stats": {
+        "totalAppointments": 500,
+        "completedAppointments": 490,
+        "cancelledAppointments": 6,
+        "noShows": 4
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "41",
+      "name": "Dr. Afnan Ahmed",
+      "email": "dr._afnan_ahmed@example.com",
+      "password": "",
+      "phone": "01710000040",
+      "gender": "Male",
+      "photo": "https://html.imjol.com/physicmed/physicmed/assets/images/team6.png",
+      "specialization": "Cardiologist",
+      "experience": 15,
+      "education": "MBBS, Cardiologist Specialist",
+      "bio": "Dr. Afnan Ahmed is a highly experienced Cardiologist with expertise in heart disease treatment.",
+      "address": {
+        "clinic": "Bangladesh Heart Institute",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Tuesday",
+          "slots": [{ "startTime": "09:00 AM", "endTime": "12:00 PM" }]
+        },
+        {
+          "day": "Thursday",
+          "slots": [{ "startTime": "03:00 PM", "endTime": "06:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "01:00 PM", "endTime": "04:00 PM" }]
+        }
+      ],
+      "appointmentFee": 2200,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.9,
+        "totalReviews": 180
+      },
+      "stats": {
+        "totalAppointments": 500,
+        "completedAppointments": 480,
+        "cancelledAppointments": 10,
+        "noShows": 10
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "42",
+      "name": "Dr. Hina Jahan",
+      "email": "dr._hina_jahan@example.com",
+      "password": "",
+      "phone": "01710000041",
+      "gender": "Female",
+      "photo": "https://html.imjol.com/physicmed/physicmed/assets/images/team5.png",
+      "specialization": "Dermatologist",
+      "experience": 12,
+      "education": "MBBS, Dermatologist Specialist",
+      "bio": "Dr. Hina Jahan is a leading Dermatologist with vast experience in skin and hair treatments.",
+      "address": {
+        "clinic": "Skin & Hair Clinic",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [{ "startTime": "03:00 PM", "endTime": "06:00 PM" }]
+        },
+        {
+          "day": "Friday",
+          "slots": [{ "startTime": "09:00 AM", "endTime": "12:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1800,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.8,
+        "totalReviews": 170
+      },
+      "stats": {
+        "totalAppointments": 460,
+        "completedAppointments": 450,
+        "cancelledAppointments": 5,
+        "noShows": 5
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "43",
+      "name": "Dr. Omar Khalil",
+      "email": "dr._omar_khalil@example.com",
+      "password": "",
+      "phone": "01710000042",
+      "gender": "Male",
+      "photo": "https://html.imjol.com/physicmed/physicmed/assets/images/team01.png",
+      "specialization": "orthopedic-surgeon",
+      "experience": 20,
+      "education": "MBBS, Orthopedic Surgeon Specialist",
+      "bio": "Dr. Omar Khalil specializes in complex orthopedic procedures and sports injuries.",
+      "address": {
+        "clinic": "Orthopedic Care Center",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Tuesday",
+          "slots": [{ "startTime": "03:00 PM", "endTime": "06:00 PM" }]
+        },
+        {
+          "day": "Thursday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "01:00 PM", "endTime": "04:00 PM" }]
+        }
+      ],
+      "appointmentFee": 2500,
+      "isVerified": true,
+      "ratings": {
+        "average": 5.0,
+        "totalReviews": 200
+      },
+      "stats": {
+        "totalAppointments": 600,
+        "completedAppointments": 590,
+        "cancelledAppointments": 7,
+        "noShows": 3
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "44",
+      "name": "Dr. Rafat Ali",
+      "email": "dr._rafat_ali@example.com",
+      "password": "",
+      "phone": "01710000043",
+      "gender": "Male",
+      "photo": "https://html.imjol.com/physicmed/physicmed/assets/images/fea-1.png",
+      "specialization": "Nephrologist",
+      "experience": 18,
+      "education": "MBBS, Nephrologist Specialist",
+      "bio": "Dr. Rafat Ali is a highly skilled Nephrologist with vast experience in kidney-related diseases.",
+      "address": {
+        "clinic": "Dhaka Kidney Center",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Friday",
+          "slots": [{ "startTime": "01:00 PM", "endTime": "04:00 PM" }]
+        }
+      ],
+      "appointmentFee": 2200,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.9,
+        "totalReviews": 190
+      },
+      "stats": {
+        "totalAppointments": 550,
+        "completedAppointments": 540,
+        "cancelledAppointments": 8,
+        "noShows": 7
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "45",
+      "name": "Dr. Mashael Shah",
+      "email": "dr._mashael_shah@example.com",
+      "password": "",
+      "phone": "01710000044",
+      "gender": "Female",
+      "photo": "https://html.imjol.com/physicmed/physicmed/assets/images/team7.png",
+      "specialization": "Pediatrician",
+      "experience": 14,
+      "education": "MBBS, Pediatrician Specialist",
+      "bio": "Dr. Mashael Shah is a compassionate Pediatrician with expertise in treating children's health issues.",
+      "address": {
+        "clinic": "Children’s Health Clinic",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "09:00 AM", "endTime": "12:00 PM" }]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "12:00 PM", "endTime": "03:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1800,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.8,
+        "totalReviews": 160
+      },
+      "stats": {
+        "totalAppointments": 470,
+        "completedAppointments": 460,
+        "cancelledAppointments": 5,
+        "noShows": 5
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "46",
+      "name": "Dr. Shamsul Haque",
+      "email": "dr._shamsul_haque@example.com",
+      "password": "",
+      "phone": "01710000045",
+      "gender": "Male",
+      "photo": "https://html.imjol.com/physicmed/physicmed/assets/images/team4.png",
+      "specialization": "Gastroenterologist",
+      "experience": 12,
+      "education": "MBBS, Gastroenterologist Specialist",
+      "bio": "Dr. Shamsul Haque specializes in digestive health and gastrointestinal treatments.",
+      "address": {
+        "clinic": "Dhaka Gastro Clinic",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Tuesday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        },
+        {
+          "day": "Thursday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "11:00 AM", "endTime": "02:00 PM" }]
+        }
+      ],
+      "appointmentFee": 2000,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.7,
+        "totalReviews": 160
+      },
+      "stats": {
+        "totalAppointments": 460,
+        "completedAppointments": 450,
+        "cancelledAppointments": 5,
+        "noShows": 5
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "47",
+      "name": "Dr. Rehana Parveen",
+      "email": "dr._rehana_parveen@example.com",
+      "password": "",
+      "phone": "01710000046",
+      "gender": "Female",
+      "photo": "https://html.imjol.com/physicmed/physicmed/assets/images/appnt-img2.png",
+      "specialization": "Oncologist",
+      "experience": 14,
+      "education": "MBBS, Oncologist Specialist",
+      "bio": "Dr. Rehana Parveen specializes in cancer treatment and oncology care.",
+      "address": {
+        "clinic": "Oncology Care Center",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [{ "startTime": "03:00 PM", "endTime": "06:00 PM" }]
+        },
+        {
+          "day": "Friday",
+          "slots": [{ "startTime": "01:00 PM", "endTime": "04:00 PM" }]
+        }
+      ],
+      "appointmentFee": 2300,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.9,
+        "totalReviews": 180
+      },
+      "stats": {
+        "totalAppointments": 500,
+        "completedAppointments": 490,
+        "cancelledAppointments": 5,
+        "noShows": 5
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "48",
+      "name": "Dr. Ibrahim Sattar",
+      "email": "dr._ibrahim_sattar@example.com",
+      "password": "",
+      "phone": "01710000047",
+      "gender": "Male",
+      "photo": "https://html.imjol.com/physicmed/physicmed/assets/images/team1.png",
+      "specialization": "Nephrologist",
+      "experience": 16,
+      "education": "MBBS, Nephrologist Specialist",
+      "bio": "Dr. Ibrahim Sattar is an expert in kidney care and dialysis treatments.",
+      "address": {
+        "clinic": "Kidney Care Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "09:00 AM", "endTime": "12:00 PM" }]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "11:00 AM", "endTime": "02:00 PM" }]
+        }
+      ],
+      "appointmentFee": 2100,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.8,
+        "totalReviews": 170
+      },
+      "stats": {
+        "totalAppointments": 470,
+        "completedAppointments": 460,
+        "cancelledAppointments": 6,
+        "noShows": 4
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "49",
+      "name": "Dr. Khadija Rahman",
+      "email": "dr._khadija_rahman@example.com",
+      "password": "",
+      "phone": "01710000048",
+      "gender": "Female",
+      "photo": "https://html.imjol.com/physicmed/physicmed/assets/images/team3.png",
+      "specialization": "Gynecologist",
+      "experience": 18,
+      "education": "MBBS, Gynecologist Specialist",
+      "bio": "Dr. Khadija Rahman specializes in women’s health and maternity care.",
+      "address": {
+        "clinic": "Women’s Health Center",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Tuesday",
+          "slots": [{ "startTime": "01:00 PM", "endTime": "04:00 PM" }]
+        },
+        {
+          "day": "Thursday",
+          "slots": [{ "startTime": "09:00 AM", "endTime": "12:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        }
+      ],
+      "appointmentFee": 2500,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.9,
+        "totalReviews": 200
+      },
+      "stats": {
+        "totalAppointments": 520,
+        "completedAppointments": 510,
+        "cancelledAppointments": 5,
+        "noShows": 5
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "50",
+      "name": "Dr. Zaynab Tarek",
+      "email": "dr._zaynab_tarek@example.com",
+      "password": "",
+      "phone": "01710000049",
+      "gender": "Female",
+      "photo": "https://html.imjol.com/physicmed/physicmed/assets/images/team02.png",
+      "specialization": "Pediatrician",
+      "experience": 19,
+      "education": "MBBS, Pediatrician Specialist",
+      "bio": "Dr. Zaynab Tarek is a renowned Pediatrician specializing in the health and well-being of children.",
+      "address": {
+        "clinic": "Pediatric Health Clinic",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [{ "startTime": "09:00 AM", "endTime": "12:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "03:00 PM", "endTime": "06:00 PM" }]
+        }
+      ],
+      "appointmentFee": 2200,
+      "isVerified": true,
+      "ratings": {
+        "average": 5.0,
+        "totalReviews": 210
+      },
+      "stats": {
+        "totalAppointments": 550,
+        "completedAppointments": 540,
+        "cancelledAppointments": 6,
+        "noShows": 4
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    }
+  ],

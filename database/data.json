@@ -1,31 +1,4138 @@
 {
-    "logo": [
-      {
-        "id": 1,
-        "image": "https://i.ibb.co/bKZqWx9/health-logo.png"
-      }
-    ],
-    "banner":[
-      {
-        "id":1,
-        "tagline":"doctor plus dedication to excellence",
-        "image": "",
-        "bg": ""
-      }
-    ],
-    "user": [
+  "logo": [
+    {
+      "id": 1,
+      "image": "https://i.ibb.co/bKZqWx9/health-logo.png"
+    }
+  ],
+  "banner": [
+    {
+      "id": 1,
+      "tagline": "doctor plus dedication to excellence",
+      "image": "",
+      "bg": ""
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "name": "Sabbir Ahmed",
+      "birth": "01-01-2000",
+      "division": "Dhaka",
+      "city": "Narayangonj",
+      "upazila": "Rupgonj",
+      "village": "Birabo",
+      "phone": "01303142498",
+      "image": "https://i.ibb.co.com/DMkJJYR/254896.jpg",
+      "password": 11111111
+    }
+  ],
+  "departments": [
+    {
+      "id": 1,
+      "name": "Ophthalmology",
+      "icon": "👁",
+      "description": "Ophthalmology is the branch of medicine and surgery that is concerned with the diagnosis and treatment of eye disorders. It involves the prevention, diagnosis, and treatment of conditions affecting the eyes and vision, which include common issues like near-sightedness and far-sightedness, as well as more serious conditions like cataracts, glaucoma, and diabetic retinopathy. Ophthalmologists are skilled in performing surgeries such as cataract removal, LASIK, and glaucoma surgery, ensuring that patients can maintain their vision health and quality of life. Pediatric ophthalmology focuses on vision issues in children, making this department a key area for eye care for all age groups.",
+      "shortList": [
+        "Vision Testing",
+        "Cataract Surgery",
+        "Glaucoma Treatment",
+        "Lasik & Laser Surgery",
+        "Pediatric Eye Care",
+        "Diabetic Eye Exams"
+      ],
+      "image": "https://html.imjol.com/physicmed/physicmed/assets/images/department1.png"
+    },
+    {
+      "id": 2,
+      "name": "Cardiology",
+      "icon": "❤",
+      "description": "Cardiology is the medical specialty focused on diagnosing, treating, and preventing diseases related to the heart and vascular system. It covers a wide range of conditions including heart disease, arrhythmias, hypertension, and high cholesterol. Cardiologists are experts in performing diagnostic tests like electrocardiograms (ECG) and echocardiography to monitor heart function and detect abnormalities. They manage complex procedures such as pacemaker implantation, stenting, and cardiac rehabilitation. This department plays a critical role in improving the quality of life for individuals with heart conditions and providing preventive care to reduce the risk of heart-related illnesses.",
+      "shortList": [
+        "ECG and Echocardiography",
+        "Heart Disease Management",
+        "Pacemaker Implantation",
+        "Cardiac Rehabilitation",
+        "Hypertension Clinic",
+        "Heart Health Checkups"
+      ],
+      "image": "https://images.pexels.com/photos/8460232/pexels-photo-8460232.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 3,
+      "name": "Dermatology",
+      "icon": "🧴",
+      "description": "Dermatology is the medical specialty that deals with the diagnosis, treatment, and prevention of skin, hair, and nail disorders. Dermatologists are experts in managing conditions such as acne, eczema, psoriasis, and skin cancer. In addition to medical treatments, they also perform cosmetic procedures like Botox injections, laser hair removal, and chemical peels to enhance the appearance of the skin. With advanced treatments like Mohs surgery for skin cancer and phototherapy for skin disorders, dermatology offers a comprehensive range of care options. Skin health is an essential aspect of overall well-being, and dermatologists work to ensure the health and aesthetic beauty of the skin for their patients.",
+      "shortList": [
+        "Acne & Scar Treatment",
+        "Skin Allergy Testing",
+        "Laser Hair Removal",
+        "Skin Infection Treatment",
+        "Cosmetic Skin Procedures",
+        "Mole and Wart Removal"
+      ],
+      "image": "https://plus.unsplash.com/premium_photo-1664187387633-10b5d48e1c97?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8RGVybWF0b2xvZ3l8ZW58MHwxfDB8fHww"
+    },
+    {
+      "id": 4,
+      "name": "Orthopedics",
+      "icon": "🦴",
+      "description": "Orthopedics is the medical specialty focused on diagnosing, treating, and preventing disorders of the musculoskeletal system, which includes bones, joints, ligaments, tendons, and muscles. Orthopedic surgeons are skilled in treating a wide variety of conditions, from sports injuries and fractures to complex joint replacements. Whether through non-surgical treatments such as physical therapy and medication or surgical interventions like arthroscopy or joint replacement, orthopedics offers comprehensive solutions for musculoskeletal health. The field also includes specialized care for back and spine issues, helping patients restore mobility and quality of life through innovative treatment methods.",
+      "shortList": [
+        "Fracture Treatment",
+        "Joint Replacement",
+        "Sports Injury Management",
+        "Arthroscopy Services",
+        "Back & Spine Care",
+        "Rehabilitation Support"
+      ],
+      "image": "https://images.unsplash.com/photo-1709880754441-f254e7a7035c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8T3J0aG9wZWRpY3N8ZW58MHwxfDB8fHww"
+    },
+    {
+      "id": 5,
+      "name": "Pediatrics",
+      "icon": "🧒",
+      "description": "Pediatrics is the branch of medicine that focuses on the health and medical care of children from infancy through adolescence. Pediatricians are specialized in diagnosing and treating a wide range of childhood diseases, from common illnesses like colds and flu to chronic conditions such as asthma and diabetes. They also provide regular health check-ups, vaccinations, and developmental assessments to ensure that children are growing and developing healthily. Pediatricians are essential in guiding parents through the complexities of child-rearing, offering advice on nutrition, safety, and behavioral concerns to promote overall wellness in children.",
+      "shortList": [
+        "Vaccinations & Immunization",
+        "Growth Monitoring",
+        "Childhood Illness Management",
+        "Developmental Checkups",
+        "Nutritional Guidance",
+        "Neonatal Care"
+      ],
+      "image": "https://plus.unsplash.com/premium_photo-1664304079864-1bbaebb553ce?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8UGVkaWF0cmljc3xlbnwwfDF8MHx8fDA%3D"
+    },
+    {
+      "id": 6,
+      "name": "Neurology",
+      "icon": "🧠",
+      "description": "Neurology is a specialized field of medicine that deals with the diagnosis and treatment of disorders of the brain, spinal cord, and nervous system. Neurologists address a wide range of conditions, from common ailments like migraines and epilepsy to more serious conditions such as Parkinson's disease, multiple sclerosis, and stroke. By using advanced techniques like nerve conduction studies and neuroimaging, neurologists can accurately diagnose conditions that affect the nervous system. Their expertise plays a vital role in managing chronic neurological disorders and providing rehabilitation support to improve patients' quality of life.",
+      "shortList": [
+        "Stroke & Paralysis Treatment",
+        "Epilepsy & Seizure Control",
+        "Migraine Management",
+        "Nerve Conduction Studies",
+        "Parkinson’s Treatment",
+        "Memory Clinics"
+      ],
+      "image": "https://images.pexels.com/photos/4226139/pexels-photo-4226139.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 7,
+      "name": "ENT",
+      "icon": "👂",
+      "description": "ENT (Ear, Nose, and Throat) medicine is the specialized field of medicine that focuses on the diagnosis and treatment of conditions affecting the ear, nose, throat, and related structures. ENT specialists manage a wide range of issues such as hearing loss, sinus infections, tonsillitis, and sleep apnea. They use both medical and surgical treatments to address these conditions, and they also specialize in the management of allergies and voice disorders. ENT specialists often work with patients of all ages, from young children to older adults, helping them manage both common and complex issues related to the head and neck.",
+      "shortList": [
+        "Sinusitis Treatment",
+        "Hearing Loss Solutions",
+        "Throat Infection Management",
+        "Tonsillectomy Services",
+        "Voice Disorder Clinics",
+        "Allergy Testing"
+      ],
+      "image": "https://images.pexels.com/photos/5206945/pexels-photo-5206945.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 8,
+      "name": "General Surgery",
+      "icon": "🛠",
+      "description": "General Surgery is a broad field that encompasses various types of surgeries performed to treat different conditions across the body. General surgeons are trained to perform a wide range of procedures, from minimally invasive laparoscopic surgeries to more traditional open surgeries. They deal with issues related to the abdomen, gastrointestinal tract, thyroid, and breast, among others. In addition to surgical procedures, general surgeons also provide pre-operative and post-operative care, ensuring that patients have the best possible recovery after surgery. This department plays a vital role in improving patients' health and quality of life by addressing a variety of conditions through surgery.",
+      "shortList": [
+        "Appendix Removal",
+        "Gallbladder Surgery",
+        "Hernia Repairs",
+        "Laparoscopic Procedures",
+        "Minor OPD Surgeries",
+        "Wound Management"
+      ],
+      "image": "https://images.unsplash.com/photo-1740953448394-86122e98c1be?q=80&w=1376&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 9,
+      "name": "Endocrinology",
+      "icon": "🧬",
+      "description": "Endocrinology is the branch of medicine that focuses on the study and treatment of disorders related to the endocrine system, which includes glands that produce hormones. These hormones regulate vital functions such as metabolism, growth, and mood. Endocrinologists treat conditions like diabetes, thyroid disorders, adrenal problems, and metabolic disorders. They play a crucial role in managing chronic diseases by prescribing hormone therapy, advising on lifestyle changes, and monitoring the health of organs affected by hormone imbalances. With advanced diagnostic tests, endocrinologists are essential in helping patients manage their health and prevent long-term complications related to hormonal issues.",
+      "shortList": [
+        "Diabetes Control Programs",
+        "Thyroid Disease Treatment",
+        "Hormonal Therapy",
+        "Obesity Management",
+        "Metabolic Disorder Care",
+        "Bone Health Checks"
+      ],
+      "image": "https://images.pexels.com/photos/7653132/pexels-photo-7653132.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 10,
+      "name": "Oncology",
+      "icon": "🎗",
+      "description": "Oncology is the medical field dedicated to diagnosing and treating cancer. It involves a comprehensive approach to managing all types of cancer, including solid tumors and hematologic malignancies. Oncologists use advanced techniques such as chemotherapy, radiation therapy, targeted therapy, and immunotherapy to treat cancer patients. In addition to direct treatment, oncologists provide supportive care to alleviate symptoms, manage side effects, and improve the patient's overall quality of life. This department is essential for early cancer detection, personalized treatment planning, and palliative care for those with advanced cancers, offering hope and support to cancer patients and their families.",
+      "shortList": [
+        "Chemotherapy Services",
+        "Radiation Therapy Support",
+        "Cancer Screening",
+        "Tumor Removal Surgery",
+        "Palliative Care",
+        "Follow-up & Rehab"
+      ],
+      "image": "https://images.pexels.com/photos/6203464/pexels-photo-6203464.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 11,
+      "name": "Gastroenterology",
+      "icon": "🍽",
+      "description": "Gastroenterology is the branch of medicine that focuses on diagnosing and treating diseases of the digestive system, which includes the esophagus, stomach, intestines, liver, pancreas, and gallbladder. Gastroenterologists treat conditions such as irritable bowel syndrome (IBS), Crohn’s disease, ulcers, liver diseases, and gastrointestinal cancers. They use advanced diagnostic tools like endoscopy and colonoscopy to assess the health of the digestive system. With a focus on both medical and surgical treatments, this department plays a vital role in managing chronic digestive conditions, promoting digestive health, and improving patients' overall well-being.",
+      "shortList": [
+        "Endoscopy Services",
+        "Liver Disease Treatment",
+        "Constipation & IBS Care",
+        "Acid Reflux Management",
+        "Ulcer Treatment",
+        "Fatty Liver Counseling"
+      ],
+      "image": "https://plus.unsplash.com/premium_photo-1682123975498-d446fcd30451?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8R2FzdHJvZW50ZXJvbG9naXN0fGVufDB8MXwwfHx8MA%3D%3D"
+    },
+    {
+      "id": 12,
+      "name": "Nephrology",
+      "icon": "🧫",
+      "description": "Nephrology is the medical specialty concerned with the kidneys and their functions. Nephrologists diagnose and treat diseases related to the kidneys, including chronic kidney disease, kidney stones, and kidney infections. This department also provides care for patients requiring dialysis and kidney transplants. Nephrologists use various diagnostic methods such as blood tests, urine tests, and imaging techniques to assess kidney function and identify underlying problems. Their work is crucial in preventing kidney failure and managing long-term kidney conditions, ensuring that patients maintain optimal kidney health and overall well-being.",
+      "shortList": [
+        "Kidney Function Tests",
+        "Chronic Kidney Disease Management",
+        "Dialysis Services",
+        "Urinary Tract Infection Treatment",
+        "Hypertension & Kidney Care",
+        "Renal Transplant Support"
+      ],
+      "image": "https://plus.unsplash.com/premium_photo-1664475543697-229156438e1e?q=80&w=1372&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 13,
+      "name": "Psychiatry",
+      "icon": "🧘",
+      "description": "Psychiatry is the medical field that focuses on the diagnosis, treatment, and prevention of mental health disorders. Psychiatrists assess and manage conditions such as depression, anxiety, schizophrenia, bipolar disorder, and PTSD. They work with patients to develop treatment plans that may include psychotherapy, medications, and lifestyle changes. Mental health is an integral part of overall health, and psychiatrists play a vital role in helping individuals manage mental illnesses, improve their quality of life, and restore mental well-being. This department also offers counseling services for issues related to stress, relationships, and life transitions.",
+      "shortList": [
+        "Depression & Anxiety Treatment",
+        "Addiction Counseling",
+        "Personality Disorder Care",
+        "Stress & Sleep Management",
+        "Family & Marriage Therapy",
+        "Child Psychology Support"
+      ],
+      "image": "https://images.unsplash.com/photo-1742280618915-cc271318ada5?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 14,
+      "name": "Rheumatology",
+      "icon": "🦵",
+      "description": "Rheumatology is the branch of medicine focused on the diagnosis and treatment of autoimmune diseases, musculoskeletal disorders, and inflammatory conditions that affect the joints, muscles, and bones. Rheumatologists manage conditions like arthritis, lupus, gout, and fibromyalgia, providing both pharmacological treatments and non-pharmacological therapies to reduce symptoms and improve quality of life. This department plays a critical role in helping patients manage chronic pain, prevent disability, and maintain mobility. Rheumatology also includes education on managing chronic conditions and offering support for emotional well-being.",
+      "shortList": [
+        "Arthritis Treatment",
+        "Lupus and Vasculitis Care",
+        "Back Pain Clinics",
+        "Gout Management",
+        "Joint Pain Therapies",
+        "Fibromyalgia Support"
+      ],
+      "image": "https://plus.unsplash.com/premium_photo-1661764895266-f0b195221b77?q=80&w=1374&auto=format&fit=crop&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 15,
+      "name": "Pulmonology",
+      "icon": "🫁",
+      "description": "Pulmonology is the medical specialty focused on the respiratory system, particularly the lungs and airways. Pulmonologists diagnose and treat conditions like asthma, chronic obstructive pulmonary disease (COPD), lung infections, sleep apnea, and tuberculosis. They use diagnostic tools such as spirometry, bronchoscopy, and imaging studies to evaluate lung function and identify respiratory issues. This department is essential in managing both acute and chronic respiratory diseases, helping patients breathe more easily and improve their overall lung health. Pulmonologists also play a critical role in smoking cessation programs and preventive care for lung-related diseases.",
+      "shortList": [
+        "Asthma and COPD Clinics",
+        "Bronchoscopy Services",
+        "Sleep Apnea Management",
+        "Chest Infection Treatment",
+        "Lung Function Tests",
+        "Tuberculosis Care"
+      ],
+      "image": "https://images.unsplash.com/photo-1631558555818-ff6889981468?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8UHVsbW9ub2xvZ3l8ZW58MHwxfDB8fHww"
+    },
+    {
+      "id": 16,
+      "name": "Hematology",
+      "icon": "🩸",
+      "description": "Hematology is the branch of medicine concerned with blood disorders, including anemia, clotting disorders, blood cancers, and other hematologic conditions. Hematologists diagnose and treat conditions such as leukemia, lymphoma, hemophilia, and sickle cell disease. They are also experts in blood transfusion medicine and bone marrow disorders. This department plays a critical role in ensuring that blood-related diseases are diagnosed early and managed effectively. Hematologists work closely with oncologists to treat blood cancers and provide comprehensive care to improve the health of patients suffering from blood-related illnesses.",
+      "shortList": [
+        "Anemia Treatment",
+        "Bleeding Disorder Management",
+        "Leukemia Support",
+        "Blood Transfusion Services",
+        "Bone Marrow Tests",
+        "Thalassemia Care"
+      ],
+      "image": "https://images.pexels.com/photos/4047150/pexels-photo-4047150.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 17,
+      "name": "Urology",
+      "icon": "🚽",
+      "description": "Urology is the medical field that specializes in the diagnosis and treatment of urinary tract disorders and male reproductive health. Urologists manage conditions such as kidney stones, urinary tract infections (UTIs), prostate disease, and bladder disorders. They also provide specialized care for male fertility, erectile dysfunction, and other reproductive system concerns. Urology involves both medical treatments and surgical procedures, such as cystoscopy and prostate surgery. The department also plays a key role in managing chronic conditions that affect the urinary system and improving quality of life for patients through effective treatments.",
+      "shortList": [
+        "Kidney Stone Removal",
+        "Prostate Disease Treatment",
+        "Urinary Incontinence Care",
+        "UTI Treatment",
+        "Bladder Disorder Management",
+        "Male Fertility Consultation"
+      ],
+      "image": "https://images.pexels.com/photos/7857916/pexels-photo-7857916.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 18,
+      "name": "Gynecology",
+      "icon": "👩‍⚕",
+      "description": "Gynecology is the medical specialty focused on women's reproductive health, including the diagnosis, treatment, and prevention of disorders related to the female reproductive system. This includes conditions such as menstrual disorders, pregnancy-related issues, infertility, and menopause. Gynecologists also perform routine screenings, such as Pap smears and mammograms, to detect abnormalities like cervical and breast cancers. In addition to medical treatments, gynecologists offer surgical interventions like hysterectomy, laparoscopy, and fertility surgeries. This department is essential for maintaining women's overall health and well-being through preventive care, early diagnosis, and specialized treatments tailored to the needs of women at various stages of life.",
+      "shortList": [
+        "Prenatal & Antenatal Care",
+        "Menstrual Disorder Treatment",
+        "Infertility Services",
+        "Gynecologic Surgeries",
+        "Family Planning Guidance",
+        "Hormonal Health Checks"
+      ],
+      "image": "https://images.pexels.com/photos/7088841/pexels-photo-7088841.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 19,
+      "name": "Radiology",
+      "icon": "🖼",
+      "description": "Radiology is a medical specialty that uses imaging techniques to diagnose and treat various medical conditions. Radiologists use technologies such as X-rays, CT scans, MRI scans, ultrasound, and mammography to capture detailed images of the inside of the body. These images are critical for diagnosing conditions like bone fractures, tumors, cardiovascular diseases, and neurological disorders. Radiology also includes interventional procedures, where radiologists use imaging guidance to perform minimally invasive surgeries and procedures, such as biopsies and stent placements. The field plays a pivotal role in providing timely and accurate diagnoses, which guide the treatment and management of patients’ conditions.",
+      "shortList": [
+        "Ultrasound Services",
+        "X-Ray Imaging",
+        "CT & MRI Scans",
+        "Mammography",
+        "Bone Density Tests",
+        "Interventional Radiology"
+      ],
+      "image": "https://plus.unsplash.com/premium_photo-1708371356159-426735eb3a39?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8UmFkaW9sb2d5fGVufDB8MXwwfHx8MA%3D%3D"
+    },
+    {
+      "id": 20,
+      "name": "Anesthesiology",
+      "icon": "💉",
+      "description": "Anesthesiology is the branch of medicine focused on the administration of anesthesia and the management of pain during surgical procedures. Anesthesiologists are experts in ensuring that patients are pain-free and comfortable during surgery, as well as managing any post-operative pain. This department includes the administration of general anesthesia, regional anesthesia (such as epidurals), and sedation for minor surgeries. Anesthesiologists also monitor vital signs during surgery and are responsible for ensuring patient safety throughout the procedure. In addition to perioperative care, anesthesiologists play a key role in pain management for patients with chronic pain conditions, offering relief through various techniques and medications.",
+      "shortList": [
+        "Pre-surgery Assessments",
+        "Post-Operative Pain Control",
+        "Sedation for Minor Surgeries",
+        "Epidural & Spinal Anesthesia",
+        "Pain Management Clinics",
+        "ICU and Critical Support"
+      ],
+      "image": "https://plus.unsplash.com/premium_photo-1664304451835-a4f18e06ccad?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8QW5lc3RoZXNpb2xvZ3l8ZW58MHwxfDB8fHww"
+    }
+  ],
+  "specializations": [
+    { "name": "Cardiologist", "id": "cardiologist", "icon": "❤" },
+    { "name": "Dermatologist", "id": "dermatologist", "icon": "🧴" },
+    { "name": "Orthopedic Surgeon", "id": "orthopedic-surgeon", "icon": "🦴" },
+    { "name": "Pediatrician", "id": "pediatrician", "icon": "🧒" },
+    { "name": "Neurologist", "id": "neurologist", "icon": "🧠" },
+    { "name": "ENT Specialist", "id": "ent-specialist", "icon": "👂" },
+    { "name": "General Surgeon", "id": "general-surgeon", "icon": "🛠" },
+    { "name": "Endocrinologist", "id": "endocrinologist", "icon": "🧬" },
+    { "name": "Oncologist", "id": "oncologist", "icon": "🎗" },
+    { "name": "Gastroenterologist", "id": "gastroenterologist", "icon": "🍽" },
+    { "name": "Nephrologist", "id": "nephrologist", "icon": "🧫" },
+    { "name": "Psychiatrist", "id": "psychiatrist", "icon": "🧘" },
+    { "name": "Rheumatologist", "id": "rheumatologist", "icon": "🦵" },
+    { "name": "Pulmonologist", "id": "pulmonologist", "icon": "🫁" },
+    { "name": "Hematologist", "id": "hematologist", "icon": "🩸" },
+    { "name": "Urologist", "id": "urologist", "icon": "🚽" },
+    { "name": "Gynecologist", "id": "gynecologist", "icon": "👩‍⚕" },
+    { "name": "Ophthalmologist", "id": "ophthalmologist", "icon": "👁" },
+    { "name": "Radiologist", "id": "radiologist", "icon": "🖼" },
+    { "name": "Anesthesiologist", "id": "anesthesiologist", "icon": "💉" }
+  ],
+  "doctors": [
+    {
+      "id": "1",
+      "name": "Dr. Ahsan Habib",
+      "email": "dr._ahsan_habib@example.com",
+      "password": "",
+      "phone": "01710000000",
+      "gender": "Male",
+      "photo": "https://i.ibb.co.com/G30t1SbL/Ahsan-Habib.jpg",
+      "specialization": "Cardiologist",
+      "education": {
+        "title": "MBBS, Cardiologist Specialist",
+        "passingYear": "2015",
+        "department": "Cardiology",
+        "instituteName": "Dhaka Medical College"
+      },
+      "experience": {
+        "years": 5,
+        "positions": [
+          {
+            "year": "2015-2017",
+            "position": "Junior Cardiologist",
+            "instituteName": "Dhaka Medical College"
+          },
+          {
+            "year": "2018-2021",
+            "position": "Senior Cardiologist",
+            "instituteName": "Square Hospital"
+          }
+        ]
+      },
+      "bio": "Dr. Ahsan Habib is a highly skilled Cardiologist with over five years of experience. He specializes in diagnosing and treating various heart conditions. Dr. Habib is dedicated to providing personalized care, ensuring that patients receive tailored treatment plans. His passion for cardiology drives him to stay updated on the latest advancements in the field to offer the best care possible.",
+      "address": {
+        "clinic": "Dhaka Medical College",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
         {
-            "id":1,
-            "name":"Sabbir Ahmed",
-            "birth": "01-01-2000",
-            "division": "Dhaka",
-            "city": "Narayangonj",
-            "upazila": "Rupgonj",
-            "village": "Birabo",
-            "phone": "01303142498",
-            "image": "https://i.ibb.co.com/DMkJJYR/254896.jpg",
-            "password": 11111111
+          "day": "Monday",
+          "slots": [{ "startTime": "08:00 AM", "endTime": "11:00 AM" }]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [{ "startTime": "09:00 AM", "endTime": "12:00 PM" }]
+        },
+        {
+          "day": "Friday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
         }
-    ]
-  }
-  
+      ],
+      "appointmentFee": 1000,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.5,
+        "totalReviews": 120
+      },
+      "stats": {
+        "totalAppointments": 300,
+        "completedAppointments": 290,
+        "cancelledAppointments": 5,
+        "noShows": 5
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "2",
+      "name": "Dr. Farzana Rahman",
+      "email": "dr._farzana_rahman@example.com",
+      "password": "",
+      "phone": "01710000001",
+      "gender": "Female",
+      "photo": "https://i.ibb.co.com/NgLNsvDd/Farzana-Rahman.jpg",
+      "specialization": "Dermatologist",
+      "education": {
+        "title": "MBBS, Dermatologist Specialist",
+        "passingYear": "2014",
+        "department": "Dermatology",
+        "instituteName": "Square Hospital"
+      },
+      "experience": {
+        "years": 6,
+        "positions": [
+          {
+            "year": "2014-2016",
+            "position": "Junior Dermatologist",
+            "instituteName": "Square Hospital"
+          },
+          {
+            "year": "2017-2020",
+            "position": "Consultant Dermatologist",
+            "instituteName": "Bangladesh Medical College"
+          }
+        ]
+      },
+      "bio": "Dr. Farzana Rahman is an experienced Dermatologist with more than six years of expertise in treating various skin conditions. She has worked in renowned hospitals, diagnosing and offering solutions for dermatological issues. Dr. Rahman is dedicated to staying up to date with the latest advancements in dermatology to offer the best care to her patients. She is particularly passionate about skin cancer prevention and treatment.",
+      "address": {
+        "clinic": "Square Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Tuesday",
+          "slots": [{ "startTime": "08:30 AM", "endTime": "11:30 AM" }]
+        },
+        {
+          "day": "Thursday",
+          "slots": [{ "startTime": "09:30 AM", "endTime": "12:30 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "11:00 AM", "endTime": "02:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1200,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.7,
+        "totalReviews": 90
+      },
+      "stats": {
+        "totalAppointments": 200,
+        "completedAppointments": 190,
+        "cancelledAppointments": 4,
+        "noShows": 6
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "3",
+      "name": "Dr. Imran Hossain",
+      "email": "dr._imran_hossain@example.com",
+      "password": "",
+      "phone": "01710000002",
+      "gender": "Male",
+      "photo": "https://i.ibb.co.com/6c6fhS8F/Imran-Hossain.jpg",
+      "specialization": "orthopedic-surgeon",
+      "education": {
+        "title": "MBBS, Orthopedic Surgeon Specialist",
+        "passingYear": "2013",
+        "department": "Orthopedic Surgery",
+        "instituteName": "United Hospital"
+      },
+      "experience": {
+        "years": 7,
+        "positions": [
+          {
+            "year": "2013-2015",
+            "position": "Junior Orthopedic Surgeon",
+            "instituteName": "United Hospital"
+          },
+          {
+            "year": "2016-2021",
+            "position": "Senior Orthopedic Surgeon",
+            "instituteName": "Bangladesh Orthopedic Hospital"
+          }
+        ]
+      },
+      "bio": "Dr. Imran Hossain is a highly experienced orthopedic surgeon specializing in trauma, sports injuries, and spinal surgery. He has over seven years of expertise in treating musculoskeletal problems. Dr. Hossain is committed to providing top-notch care and improving patients' quality of life through advanced surgical techniques and rehabilitation. His focus is on achieving long-term recovery for his patients.",
+      "address": {
+        "clinic": "United Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "08:00 AM", "endTime": "11:00 AM" }]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [{ "startTime": "09:30 AM", "endTime": "12:30 PM" }]
+        },
+        {
+          "day": "Friday",
+          "slots": [{ "startTime": "10:30 AM", "endTime": "01:30 PM" }]
+        }
+      ],
+      "appointmentFee": 1100,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.6,
+        "totalReviews": 85
+      },
+      "stats": {
+        "totalAppointments": 250,
+        "completedAppointments": 240,
+        "cancelledAppointments": 6,
+        "noShows": 4
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "4",
+      "name": "Dr. Nusrat Jahan",
+      "email": "dr._nusrat_jahan@example.com",
+      "password": "",
+      "phone": "01710000003",
+      "gender": "Female",
+      "photo": "https://i.ibb.co.com/jZqhvjgb/Nusrat-Jahan.jpg",
+      "specialization": "Pediatrician",
+      "education": {
+        "title": "MBBS, Pediatrician Specialist",
+        "passingYear": "2012",
+        "department": "Pediatrics",
+        "instituteName": "Apollo Hospital"
+      },
+      "experience": {
+        "years": 8,
+        "positions": [
+          {
+            "year": "2012-2014",
+            "position": "Junior Pediatrician",
+            "instituteName": "Apollo Hospital"
+          },
+          {
+            "year": "2015-2022",
+            "position": "Senior Pediatrician",
+            "instituteName": "Bangladesh Pediatric Hospital"
+          }
+        ]
+      },
+      "bio": "Dr. Nusrat Jahan is a compassionate pediatrician with over eight years of experience in treating children of all ages. She is dedicated to providing expert care and advice on children's health, from birth to adolescence. Dr. Jahan works closely with parents to ensure their children’s overall well-being, focusing on both preventative care and treatment of common pediatric illnesses.",
+      "address": {
+        "clinic": "Apollo Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Tuesday",
+          "slots": [{ "startTime": "08:30 AM", "endTime": "11:30 AM" }]
+        },
+        {
+          "day": "Thursday",
+          "slots": [{ "startTime": "09:00 AM", "endTime": "12:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1300,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.8,
+        "totalReviews": 110
+      },
+      "stats": {
+        "totalAppointments": 220,
+        "completedAppointments": 210,
+        "cancelledAppointments": 7,
+        "noShows": 3
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "5",
+      "name": "Dr. Hasan Mahmud",
+      "email": "dr._hasan_mahmud@example.com",
+      "password": "",
+      "phone": "01710000004",
+      "gender": "Male",
+      "photo": "https://i.ibb.co.com/RpCSGKKv/Hasan-Mahmud.jpg",
+      "specialization": "Neurologist",
+      "education": {
+        "title": "MBBS, Neurologist Specialist",
+        "passingYear": "2011",
+        "department": "Neurology",
+        "instituteName": "Bangabandhu Sheikh Mujib Medical University"
+      },
+      "experience": {
+        "years": 9,
+        "positions": [
+          {
+            "year": "2011-2014",
+            "position": "Junior Neurologist",
+            "instituteName": "Bangabandhu Sheikh Mujib Medical University"
+          },
+          {
+            "year": "2015-2022",
+            "position": "Senior Neurologist",
+            "instituteName": "Bangabandhu Sheikh Mujib Medical University"
+          }
+        ]
+      },
+      "bio": "Dr. Hasan Mahmud is a highly experienced neurologist with over nine years of expertise in diagnosing and treating neurological disorders. He specializes in stroke management, epilepsy, and neurodegenerative diseases. Dr. Mahmud is dedicated to providing individualized care for his patients, using the latest advancements in neurology to ensure optimal outcomes. He also conducts educational programs to raise awareness about neurological health.",
+      "address": {
+        "clinic": "Bangabandhu Sheikh Mujib Medical University",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        },
+        {
+          "day": "Tuesday",
+          "slots": [{ "startTime": "11:00 AM", "endTime": "02:00 PM" }]
+        },
+        {
+          "day": "Thursday",
+          "slots": [{ "startTime": "09:00 AM", "endTime": "12:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1500,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.9,
+        "totalReviews": 150
+      },
+      "stats": {
+        "totalAppointments": 350,
+        "completedAppointments": 340,
+        "cancelledAppointments": 3,
+        "noShows": 7
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "6",
+      "name": "Dr. Tanvir Ahmed",
+      "email": "dr._tanvir_ahmed@example.com",
+      "password": "",
+      "phone": "01710000005",
+      "gender": "Male",
+      "photo": "https://i.ibb.co.com/qYWSq4gQ/Tanvir-Ahmed.jpg",
+      "specialization": "ent-specialist",
+      "education": {
+        "title": "MBBS, ENT Specialist",
+        "passingYear": "2010",
+        "department": "ENT",
+        "instituteName": "Popular Diagnostic Center"
+      },
+      "experience": {
+        "years": 10,
+        "positions": [
+          {
+            "year": "2010-2013",
+            "position": "Junior ENT Specialist",
+            "instituteName": "Popular Diagnostic Center"
+          },
+          {
+            "year": "2014-2022",
+            "position": "Senior ENT Specialist",
+            "instituteName": "Evercare Hospital"
+          }
+        ]
+      },
+      "bio": "Dr. Tanvir Ahmed is a renowned ENT specialist with over ten years of experience in diagnosing and treating ear, nose, and throat conditions. His expertise includes managing chronic sinusitis, sleep apnea, and hearing disorders. Dr. Ahmed is passionate about providing cutting-edge treatment for his patients, using advanced diagnostic tools and surgical methods to improve their quality of life.",
+      "address": {
+        "clinic": "Popular Diagnostic Center",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "09:00 AM", "endTime": "12:00 PM" }]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        },
+        {
+          "day": "Friday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1600,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.6,
+        "totalReviews": 100
+      },
+      "stats": {
+        "totalAppointments": 280,
+        "completedAppointments": 270,
+        "cancelledAppointments": 6,
+        "noShows": 4
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "7",
+      "name": "Dr. Saima Akter",
+      "email": "dr._saima_akter@example.com",
+      "password": "",
+      "phone": "01710000006",
+      "gender": "Female",
+      "photo": "https://i.ibb.co.com/svc7VKTZ/Saima-Akter.jpg",
+      "specialization": "general-surgeon",
+      "education": {
+        "title": "MBBS, General Surgeon Specialist",
+        "passingYear": "2009",
+        "department": "General Surgery",
+        "instituteName": "Ibn Sina Hospital"
+      },
+      "experience": {
+        "years": 11,
+        "positions": [
+          {
+            "year": "2009-2011",
+            "position": "Junior General Surgeon",
+            "instituteName": "Ibn Sina Hospital"
+          },
+          {
+            "year": "2012-2019",
+            "position": "Consultant General Surgeon",
+            "instituteName": "Evercare Hospital"
+          }
+        ]
+      },
+      "bio": "Dr. Saima Akter is a skilled general surgeon with more than a decade of experience in performing a wide range of surgical procedures. Her focus includes abdominal surgeries, minor to major emergency procedures, and elective surgeries. Dr. Akter is dedicated to providing comprehensive care and ensuring the best possible outcomes for her patients, both during and after surgery.",
+      "address": {
+        "clinic": "Ibn Sina Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Tuesday",
+          "slots": [{ "startTime": "08:00 AM", "endTime": "11:00 AM" }]
+        },
+        {
+          "day": "Thursday",
+          "slots": [{ "startTime": "09:00 AM", "endTime": "12:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1400,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.7,
+        "totalReviews": 115
+      },
+      "stats": {
+        "totalAppointments": 320,
+        "completedAppointments": 310,
+        "cancelledAppointments": 4,
+        "noShows": 6
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "8",
+      "name": "Dr. Rafiq Ullah",
+      "email": "dr._rafiq_ullah@example.com",
+      "password": "",
+      "phone": "01710000007",
+      "gender": "Male",
+      "photo": "https://i.ibb.co.com/nNtHzW29/Rafiq-Ullah.jpg",
+      "specialization": "Endocrinologist",
+      "education": {
+        "title": "MBBS, Endocrinologist Specialist",
+        "passingYear": "2009",
+        "department": "Endocrinology",
+        "instituteName": "Evercare Hospital"
+      },
+      "experience": {
+        "years": 12,
+        "positions": [
+          {
+            "year": "2009-2012",
+            "position": "Junior Endocrinologist",
+            "instituteName": "Evercare Hospital"
+          },
+          {
+            "year": "2013-2022",
+            "position": "Senior Endocrinologist",
+            "instituteName": "Labaid Specialized Hospital"
+          }
+        ]
+      },
+      "bio": "Dr. Rafiq Ullah is a leading endocrinologist with over 12 years of experience in treating various endocrine disorders. His expertise includes diabetes management, thyroid disorders, and metabolic diseases. He is committed to helping patients manage their health with a focus on prevention and long-term wellness. Dr. Ullah works closely with his patients to develop personalized treatment plans that meet their specific needs.",
+      "address": {
+        "clinic": "Evercare Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "08:30 AM", "endTime": "11:30 AM" }]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [{ "startTime": "09:30 AM", "endTime": "12:30 PM" }]
+        },
+        {
+          "day": "Friday",
+          "slots": [{ "startTime": "10:30 AM", "endTime": "01:30 PM" }]
+        }
+      ],
+      "appointmentFee": 1700,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.8,
+        "totalReviews": 130
+      },
+      "stats": {
+        "totalAppointments": 350,
+        "completedAppointments": 340,
+        "cancelledAppointments": 4,
+        "noShows": 6
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "9",
+      "name": "Dr. Sabrina Khan",
+      "email": "dr._sabrina_khan@example.com",
+      "password": "",
+      "phone": "01710000008",
+      "gender": "Female",
+      "photo": "https://i.ibb.co.com/23ZdNFkd/Sabrina-Khan.jpg",
+      "specialization": "Oncologist",
+      "education": {
+        "title": "MBBS, Oncologist Specialist",
+        "passingYear": "2008",
+        "department": "Oncology",
+        "instituteName": "Labaid Specialized Hospital"
+      },
+      "experience": {
+        "years": 13,
+        "positions": [
+          {
+            "year": "2008-2011",
+            "position": "Junior Oncologist",
+            "instituteName": "Labaid Specialized Hospital"
+          },
+          {
+            "year": "2012-2022",
+            "position": "Consultant Oncologist",
+            "instituteName": "Square Hospital"
+          }
+        ]
+      },
+      "bio": "Dr. Sabrina Khan is an oncologist with extensive experience in the diagnosis and treatment of cancer. She specializes in various types of cancer, providing cutting-edge treatments including chemotherapy and immunotherapy. Dr. Khan is passionate about supporting her patients through every stage of their journey, offering both medical expertise and compassionate care. She remains up-to-date on the latest advancements in cancer treatment to provide the best outcomes.",
+      "address": {
+        "clinic": "Labaid Specialized Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Tuesday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        },
+        {
+          "day": "Thursday",
+          "slots": [{ "startTime": "11:00 AM", "endTime": "02:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "12:00 PM", "endTime": "03:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1800,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.9,
+        "totalReviews": 140
+      },
+      "stats": {
+        "totalAppointments": 400,
+        "completedAppointments": 390,
+        "cancelledAppointments": 5,
+        "noShows": 5
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "10",
+      "name": "Dr. Kamrul Islam",
+      "email": "dr._kamrul_islam@example.com",
+      "password": "",
+      "phone": "01710000009",
+      "gender": "Male",
+      "photo": "https://i.ibb.co.com/204RR2K8/Kamrul-Islam.jpg",
+      "specialization": "Gastroenterologist",
+      "education": {
+        "title": "MBBS, Gastroenterologist Specialist",
+        "passingYear": "2007",
+        "department": "Gastroenterology",
+        "instituteName": "Mitford Hospital"
+      },
+      "experience": {
+        "years": 14,
+        "positions": [
+          {
+            "year": "2007-2010",
+            "position": "Junior Gastroenterologist",
+            "instituteName": "Mitford Hospital"
+          },
+          {
+            "year": "2011-2021",
+            "position": "Senior Gastroenterologist",
+            "instituteName": "Dhaka Medical College"
+          }
+        ]
+      },
+      "bio": "Dr. Kamrul Islam is a highly experienced gastroenterologist with a specialization in digestive health. He has been serving patients for over 14 years, treating conditions like acid reflux, irritable bowel syndrome, and liver diseases. His approach to treatment includes a blend of advanced diagnostic techniques and personalized care. Dr. Islam is committed to improving his patients' digestive health and overall well-being through comprehensive treatment plans.",
+      "address": {
+        "clinic": "Mitford Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [{ "startTime": "01:00 PM", "endTime": "04:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "03:00 PM", "endTime": "06:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1900,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.9,
+        "totalReviews": 160
+      },
+      "stats": {
+        "totalAppointments": 450,
+        "completedAppointments": 440,
+        "cancelledAppointments": 5,
+        "noShows": 5
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "11",
+      "name": "Dr. Nazmul Huda",
+      "email": "dr._nazmul_huda@example.com",
+      "password": "",
+      "phone": "01710000010",
+      "gender": "Male",
+      "photo": "https://i.ibb.co.com/JR7Nw35y/Nazmul-Huda.jpg",
+      "specialization": "Nephrologist",
+      "education": {
+        "title": "MBBS, Nephrologist Specialist",
+        "passingYear": "2006",
+        "department": "Nephrology",
+        "instituteName": "Dhaka Medical College"
+      },
+      "experience": {
+        "years": 15,
+        "positions": [
+          {
+            "year": "2006-2009",
+            "position": "Junior Nephrologist",
+            "instituteName": "Dhaka Medical College"
+          },
+          {
+            "year": "2010-2020",
+            "position": "Senior Nephrologist",
+            "instituteName": "Bangabandhu Sheikh Mujib Medical University"
+          }
+        ]
+      },
+      "bio": "Dr. Nazmul Huda is a skilled nephrologist with over 15 years of experience in treating kidney-related conditions, including dialysis and kidney transplant. He is dedicated to improving the health of his patients by providing effective treatments for chronic kidney disease and other renal issues. Dr. Huda stays up-to-date with the latest medical research to ensure his patients receive the best care possible.",
+      "address": {
+        "clinic": "Dhaka Medical College",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Tuesday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Thursday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        },
+        {
+          "day": "Friday",
+          "slots": [{ "startTime": "04:00 PM", "endTime": "07:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1200,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.5,
+        "totalReviews": 110
+      },
+      "stats": {
+        "totalAppointments": 300,
+        "completedAppointments": 290,
+        "cancelledAppointments": 4,
+        "noShows": 6
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "12",
+      "name": "Dr. Tania Sultana",
+      "email": "dr._tania_sultana@example.com",
+      "password": "",
+      "phone": "01710000011",
+      "gender": "Female",
+      "photo": "https://i.ibb.co.com/8nSRnBjp/Tania-Sultana.jpg",
+      "specialization": "Psychiatrist",
+      "education": {
+        "title": "MBBS, Psychiatrist Specialist",
+        "passingYear": "2005",
+        "department": "Psychiatry",
+        "instituteName": "Square Hospital"
+      },
+      "experience": {
+        "years": 16,
+        "positions": [
+          {
+            "year": "2005-2008",
+            "position": "Junior Psychiatrist",
+            "instituteName": "Square Hospital"
+          },
+          {
+            "year": "2009-2025",
+            "position": "Senior Psychiatrist",
+            "instituteName": "Evercare Hospital"
+          }
+        ]
+      },
+      "bio": "Dr. Tania Sultana is a compassionate psychiatrist with more than 16 years of experience helping individuals cope with mental health issues, including depression, anxiety, and stress disorders. She utilizes a blend of traditional and modern treatment techniques to support her patients' mental well-being. Dr. Sultana believes in a holistic approach, ensuring that each patient receives the personalized care they need for long-term improvement.",
+      "address": {
+        "clinic": "Square Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "11:00 AM", "endTime": "02:00 PM" }]
+        },
+        {
+          "day": "Thursday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "03:00 PM", "endTime": "06:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1400,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.6,
+        "totalReviews": 95
+      },
+      "stats": {
+        "totalAppointments": 250,
+        "completedAppointments": 240,
+        "cancelledAppointments": 5,
+        "noShows": 5
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "13",
+      "name": "Dr. Arifur Rahman",
+      "email": "dr._arifur_rahman@example.com",
+      "password": "",
+      "phone": "01710000012",
+      "gender": "Male",
+      "photo": "https://i.ibb.co.com/Vcjk0wbw/Arifur-Rahman.jpg",
+      "specialization": "Rheumatologist",
+      "education": {
+        "title": "MBBS, Rheumatologist Specialist",
+        "passingYear": "2004",
+        "department": "Rheumatology",
+        "instituteName": "United Hospital"
+      },
+      "experience": {
+        "years": 17,
+        "positions": [
+          {
+            "year": "2004-2007",
+            "position": "Junior Rheumatologist",
+            "instituteName": "United Hospital"
+          },
+          {
+            "year": "2008-2025",
+            "position": "Senior Rheumatologist",
+            "instituteName": "Apollo Hospital"
+          }
+        ]
+      },
+      "bio": "Dr. Arifur Rahman is an experienced rheumatologist with over 17 years of expertise in treating various autoimmune diseases and chronic inflammatory conditions. His treatments focus on managing conditions like rheumatoid arthritis, lupus, and osteoarthritis. Dr. Rahman uses the latest advancements in medicine to ensure that his patients receive the most effective and cutting-edge care available. His approach emphasizes long-term management and improving quality of life.",
+      "address": {
+        "clinic": "United Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Tuesday",
+          "slots": [{ "startTime": "03:00 PM", "endTime": "06:00 PM" }]
+        },
+        {
+          "day": "Thursday",
+          "slots": [{ "startTime": "01:00 PM", "endTime": "04:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "11:00 AM", "endTime": "02:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1500,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.8,
+        "totalReviews": 105
+      },
+      "stats": {
+        "totalAppointments": 350,
+        "completedAppointments": 340,
+        "cancelledAppointments": 6,
+        "noShows": 4
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "14",
+      "name": "Dr. Mahbuba Haque",
+      "email": "dr._mahbuba_haque@example.com",
+      "password": "",
+      "phone": "01710000013",
+      "gender": "Female",
+      "photo": "https://i.ibb.co.com/CsKxBd6T/Mahbuba-Haque.jpg",
+      "specialization": "Pulmonologist",
+      "education": {
+        "title": "MBBS, Pulmonologist Specialist",
+        "passingYear": "2003",
+        "department": "Pulmonology",
+        "instituteName": "Apollo Hospital"
+      },
+      "experience": {
+        "years": 18,
+        "positions": [
+          {
+            "year": "2003-2006",
+            "position": "Junior Pulmonologist",
+            "instituteName": "Apollo Hospital"
+          },
+          {
+            "year": "2007-2025",
+            "position": "Consultant Pulmonologist",
+            "instituteName": "Bangabandhu Sheikh Mujib Medical University"
+          }
+        ]
+      },
+      "bio": "Dr. Mahbuba Haque is a highly experienced pulmonologist specializing in the treatment of respiratory diseases such as asthma, chronic obstructive pulmonary disease (COPD), and pneumonia. With over 18 years of experience, she is committed to providing personalized care to her patients. Dr. Haque utilizes the latest diagnostic tools and treatment techniques to help her patients manage and overcome their respiratory challenges.",
+      "address": {
+        "clinic": "Apollo Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [{ "startTime": "03:00 PM", "endTime": "06:00 PM" }]
+        },
+        {
+          "day": "Friday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1600,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.7,
+        "totalReviews": 125
+      },
+      "stats": {
+        "totalAppointments": 400,
+        "completedAppointments": 390,
+        "cancelledAppointments": 7,
+        "noShows": 6
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "15",
+      "name": "Dr. Khaled Mahmud",
+      "email": "dr._khaled_mahmud@example.com",
+      "password": "",
+      "phone": "01710000014",
+      "gender": "Male",
+      "photo": "https://i.ibb.co.com/FN97GmT/Khaled-Mahmud.jpg",
+      "specialization": "Hematologist",
+      "education": {
+        "title": "MBBS, Hematologist Specialist",
+        "passingYear": "2002",
+        "department": "Hematology",
+        "instituteName": "Bangabandhu Sheikh Mujib Medical University"
+      },
+      "experience": {
+        "years": 19,
+        "positions": [
+          {
+            "year": "2002-2005",
+            "position": "Junior Hematologist",
+            "instituteName": "Bangabandhu Sheikh Mujib Medical University"
+          },
+          {
+            "year": "2006-2025",
+            "position": "Senior Hematologist",
+            "instituteName": "Evercare Hospital"
+          }
+        ]
+      },
+      "bio": "Dr. Khaled Mahmud is an expert hematologist with 19 years of experience in treating blood disorders such as anemia, leukemia, and lymphoma. He is committed to providing patients with comprehensive care, from diagnosis through to advanced treatment options. Dr. Mahmud believes in a patient-centric approach, utilizing the latest advancements in hematology to provide the best possible care.",
+      "address": {
+        "clinic": "Bangabandhu Sheikh Mujib Medical University",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "11:00 AM", "endTime": "02:00 PM" }]
+        },
+        {
+          "day": "Tuesday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Friday",
+          "slots": [{ "startTime": "03:00 PM", "endTime": "06:00 PM" }]
+        }
+      ],
+      "appointmentFee": 2200,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.9,
+        "totalReviews": 190
+      },
+      "stats": {
+        "totalAppointments": 550,
+        "completedAppointments": 540,
+        "cancelledAppointments": 8,
+        "noShows": 7
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "16",
+      "name": "Dr. Sumaiya Chowdhury",
+      "email": "dr._sumaiya_chowdhury@example.com",
+      "password": "",
+      "phone": "01710000015",
+      "gender": "Female",
+      "photo": "https://i.ibb.co.com/jP7jqQ9d/Sumaiya-Chowdhury.jpg",
+      "specialization": "Urologist",
+      "education": {
+        "title": "MBBS, Urologist Specialist",
+        "passingYear": "2006",
+        "department": "Urology",
+        "instituteName": "Popular Diagnostic Center"
+      },
+      "experience": {
+        "years": 5,
+        "positions": [
+          {
+            "year": "2006-2009",
+            "position": "Junior Urologist",
+            "instituteName": "Popular Diagnostic Center"
+          },
+          {
+            "year": "2010-2025",
+            "position": "Consultant Urologist",
+            "instituteName": "Ibn Sina Hospital"
+          }
+        ]
+      },
+      "bio": "Dr. Sumaiya Chowdhury is a highly skilled urologist with more than 5 years of experience in treating a range of urological issues. Her expertise includes both male and female urinary tract issues, and she specializes in non-invasive treatments. Dr. Chowdhury is dedicated to improving her patients' health by providing personalized care and using the latest diagnostic technologies.",
+      "address": {
+        "clinic": "Popular Diagnostic Center",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [{ "startTime": "01:00 PM", "endTime": "04:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1500,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.5,
+        "totalReviews": 85
+      },
+      "stats": {
+        "totalAppointments": 220,
+        "completedAppointments": 210,
+        "cancelledAppointments": 5,
+        "noShows": 5
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "17",
+      "name": "Dr. Asif Anwar",
+      "email": "dr._asif_anwar@example.com",
+      "password": "",
+      "phone": "01710000016",
+      "gender": "Male",
+      "photo": "https://i.ibb.co.com/zTmKsTLV/Asif-Anwar.jpg",
+      "specialization": "Gynecologist",
+      "education": {
+        "title": "MBBS, Gynecologist Specialist",
+        "passingYear": "2005",
+        "department": "Gynecology",
+        "instituteName": "Ibn Sina Hospital"
+      },
+      "experience": {
+        "years": 6,
+        "positions": [
+          {
+            "year": "2005-2008",
+            "position": "Junior Gynecologist",
+            "instituteName": "Ibn Sina Hospital"
+          },
+          {
+            "year": "2009-2025",
+            "position": "Senior Gynecologist",
+            "instituteName": "Dhaka Women's Hospital"
+          }
+        ]
+      },
+      "bio": "Dr. Asif Anwar is a compassionate gynecologist with over 6 years of experience specializing in women's health. He is well-versed in all aspects of gynecology, including fertility treatments, menstrual issues, and menopause care. Dr. Anwar believes in providing a holistic approach to women's healthcare, focusing on personalized care that improves overall well-being and health outcomes.",
+      "address": {
+        "clinic": "Ibn Sina Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "04:00 PM", "endTime": "07:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1700,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.8,
+        "totalReviews": 90
+      },
+      "stats": {
+        "totalAppointments": 250,
+        "completedAppointments": 240,
+        "cancelledAppointments": 6,
+        "noShows": 4
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "18",
+      "name": "Dr. Selina Parvin",
+      "email": "dr._selina_parvin@example.com",
+      "password": "",
+      "phone": "01710000017",
+      "gender": "Female",
+      "photo": "https://i.ibb.co.com/3Y9xCNH0/Selina-Parvin.jpg",
+      "specialization": "Ophthalmologist",
+      "education": {
+        "title": "MBBS, Ophthalmologist Specialist",
+        "passingYear": "2004",
+        "department": "Ophthalmology",
+        "instituteName": "Evercare Hospital"
+      },
+      "experience": {
+        "years": 7,
+        "positions": [
+          {
+            "year": "2004-2007",
+            "position": "Junior Ophthalmologist",
+            "instituteName": "Evercare Hospital"
+          },
+          {
+            "year": "2008-2025",
+            "position": "Consultant Ophthalmologist",
+            "instituteName": "Labaid Specialized Hospital"
+          }
+        ]
+      },
+      "bio": "Dr. Selina Parvin is an experienced ophthalmologist specializing in diagnosing and treating eye disorders. She has been serving the community for over 7 years, helping patients with conditions like cataracts, glaucoma, and age-related macular degeneration. Dr. Parvin is committed to enhancing the quality of life for her patients by ensuring the best eye care, from routine exams to complex surgeries.",
+      "address": {
+        "clinic": "Evercare Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "12:00 PM", "endTime": "03:00 PM" }]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [{ "startTime": "03:00 PM", "endTime": "06:00 PM" }]
+        },
+        {
+          "day": "Friday",
+          "slots": [{ "startTime": "04:00 PM", "endTime": "07:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1500,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.6,
+        "totalReviews": 115
+      },
+      "stats": {
+        "totalAppointments": 320,
+        "completedAppointments": 310,
+        "cancelledAppointments": 5,
+        "noShows": 5
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "19",
+      "name": "Dr. Rahat Hossain",
+      "email": "dr._rahat_hossain@example.com",
+      "password": "",
+      "phone": "01710000018",
+      "gender": "Male",
+      "photo": "https://i.ibb.co.com/23GKmr6f/Rahat-Hossain.jpg",
+      "specialization": "Radiologist",
+      "education": {
+        "title": "MBBS, Radiologist Specialist",
+        "passingYear": "2003",
+        "department": "Radiology",
+        "instituteName": "Labaid Specialized Hospital"
+      },
+      "experience": {
+        "years": 8,
+        "positions": [
+          {
+            "year": "2003-2006",
+            "position": "Junior Radiologist",
+            "instituteName": "Labaid Specialized Hospital"
+          },
+          {
+            "year": "2007-2025",
+            "position": "Consultant Radiologist",
+            "instituteName": "Evercare Hospital"
+          }
+        ]
+      },
+      "bio": "Dr. Rahat Hossain is a dedicated radiologist with expertise in diagnosing and treating conditions through medical imaging techniques. With over 8 years of experience, he has worked with advanced technologies in MRI, CT scans, and X-rays to assist in patient diagnosis and treatment. Dr. Hossain’s approach is centered on providing accurate and timely results, essential for effective patient care.",
+      "address": {
+        "clinic": "Labaid Specialized Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Tuesday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Thursday",
+          "slots": [{ "startTime": "11:00 AM", "endTime": "02:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "03:00 PM", "endTime": "06:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1600,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.7,
+        "totalReviews": 105
+      },
+      "stats": {
+        "totalAppointments": 300,
+        "completedAppointments": 290,
+        "cancelledAppointments": 6,
+        "noShows": 4
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "20",
+      "name": "Dr. Sharmin Akter",
+      "email": "dr._sharmin_akter@example.com",
+      "password": "",
+      "phone": "01710000019",
+      "gender": "Female",
+      "photo": "https://i.ibb.co.com/MyxyC4F4/Sharmin-Akter.jpg",
+      "specialization": "Anesthesiologist",
+      "education": {
+        "title": "MBBS, Anesthesiologist Specialist",
+        "passingYear": "2004",
+        "department": "Anesthesiology",
+        "instituteName": "Mitford Hospital"
+      },
+      "experience": {
+        "years": 9,
+        "positions": [
+          {
+            "year": "2004-2007",
+            "position": "Junior Anesthesiologist",
+            "instituteName": "Mitford Hospital"
+          },
+          {
+            "year": "2008-2025",
+            "position": "Senior Anesthesiologist",
+            "instituteName": "Bangabandhu Sheikh Mujib Medical University"
+          }
+        ]
+      },
+      "bio": "Dr. Sharmin Akter is a highly qualified anesthesiologist with over 9 years of experience in providing anesthesia care for surgical procedures. Her specialties include general anesthesia, regional anesthesia, and pain management. Dr. Akter is known for her precision and commitment to patient safety, ensuring that every patient receives individualized care and the highest quality of anesthesia services.",
+      "address": {
+        "clinic": "Mitford Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        },
+        {
+          "day": "Thursday",
+          "slots": [{ "startTime": "03:00 PM", "endTime": "06:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "11:00 AM", "endTime": "02:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1800,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.6,
+        "totalReviews": 110
+      },
+      "stats": {
+        "totalAppointments": 330,
+        "completedAppointments": 320,
+        "cancelledAppointments": 5,
+        "noShows": 5
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "21",
+      "name": "Dr. Monirul Islam",
+      "email": "dr._monirul_islam@example.com",
+      "password": "",
+      "phone": "01710000020",
+      "gender": "Male",
+      "photo": "https://i.ibb.co.com/TqTtWS9Y/Monirul-Islam.jpg",
+      "specialization": "Cardiologist",
+      "education": {
+        "title": "MBBS, Cardiologist Specialist",
+        "passingYear": "2001",
+        "department": "Cardiology",
+        "instituteName": "Dhaka Medical College"
+      },
+      "experience": {
+        "years": 10,
+        "positions": [
+          {
+            "year": "2001-2005",
+            "position": "Junior Cardiologist",
+            "instituteName": "Dhaka Medical College"
+          },
+          {
+            "year": "2006-2025",
+            "position": "Senior Cardiologist",
+            "instituteName": "Bangladesh Heart Institute"
+          }
+        ]
+      },
+      "bio": "Dr. Monirul Islam is an experienced cardiologist specializing in diagnosing and treating heart-related conditions. With over 10 years of practice, he is proficient in handling critical cardiac cases and providing preventive care. Dr. Islam is dedicated to improving his patients' heart health, using a combination of state-of-the-art technology and personalized treatment plans to ensure their well-being.",
+      "address": {
+        "clinic": "Dhaka Medical College",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [{ "startTime": "03:00 PM", "endTime": "06:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1900,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.7,
+        "totalReviews": 115
+      },
+      "stats": {
+        "totalAppointments": 380,
+        "completedAppointments": 370,
+        "cancelledAppointments": 5,
+        "noShows": 5
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "22",
+      "name": "Dr. Shaila Jahan",
+      "email": "dr._shaila_jahan@example.com",
+      "password": "",
+      "phone": "01710000021",
+      "gender": "Female",
+      "photo": "https://i.ibb.co.com/4g2mHGwv/Shaila-Jahan.jpg",
+      "specialization": "Dermatologist",
+      "education": {
+        "title": "MBBS, Dermatologist Specialist",
+        "passingYear": "2002",
+        "department": "Dermatology",
+        "instituteName": "Square Hospital"
+      },
+      "experience": {
+        "years": 11,
+        "positions": [
+          {
+            "year": "2002-2006",
+            "position": "Junior Dermatologist",
+            "instituteName": "Square Hospital"
+          },
+          {
+            "year": "2007-2025",
+            "position": "Senior Dermatologist",
+            "instituteName": "Labaid Specialized Hospital"
+          }
+        ]
+      },
+      "bio": "Dr. Shaila Jahan is a leading dermatologist with over 11 years of experience in diagnosing and treating skin conditions. She is highly skilled in both medical and cosmetic dermatology, including acne treatment, anti-aging therapies, and dermatological surgeries. Dr. Jahan is dedicated to providing her patients with the most advanced and effective treatments to ensure healthy, beautiful skin.",
+      "address": {
+        "clinic": "Square Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Thursday",
+          "slots": [{ "startTime": "03:00 PM", "endTime": "06:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1600,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.8,
+        "totalReviews": 125
+      },
+      "stats": {
+        "totalAppointments": 350,
+        "completedAppointments": 340,
+        "cancelledAppointments": 5,
+        "noShows": 5
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "23",
+      "name": "Dr. Zahid Hossain",
+      "email": "dr._zahid_hossain@example.com",
+      "password": "",
+      "phone": "01710000022",
+      "gender": "Male",
+      "photo": "https://i.ibb.co.com/6054nwv2/Zahid-Hossain.jpg",
+      "specialization": "orthopedic-surgeon",
+      "education": {
+        "title": "MBBS, Orthopedic Surgeon Specialist",
+        "passingYear": "2003",
+        "department": "Orthopedics",
+        "instituteName": "United Hospital"
+      },
+      "experience": {
+        "years": 12,
+        "positions": [
+          {
+            "year": "2003-2006",
+            "position": "Junior Orthopedic Surgeon",
+            "instituteName": "United Hospital"
+          },
+          {
+            "year": "2007-2025",
+            "position": "Senior Orthopedic Surgeon",
+            "instituteName": "Evercare Hospital"
+          }
+        ]
+      },
+      "bio": "Dr. Zahid Hossain is a seasoned orthopedic surgeon with more than 12 years of experience specializing in musculoskeletal disorders. His expertise includes both trauma care and elective surgeries, such as joint replacements and spinal surgeries. Dr. Hossain's approach combines advanced surgical techniques with patient-centered care to ensure optimal recovery and long-term health.",
+      "address": {
+        "clinic": "United Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Tuesday",
+          "slots": [{ "startTime": "11:00 AM", "endTime": "02:00 PM" }]
+        },
+        {
+          "day": "Thursday",
+          "slots": [{ "startTime": "01:00 PM", "endTime": "04:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "03:00 PM", "endTime": "06:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1800,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.9,
+        "totalReviews": 140
+      },
+      "stats": {
+        "totalAppointments": 420,
+        "completedAppointments": 410,
+        "cancelledAppointments": 6,
+        "noShows": 4
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "24",
+      "name": "Dr. Afreen Sultana",
+      "email": "dr._afreen_sultana@example.com",
+      "password": "",
+      "phone": "01710000023",
+      "gender": "Female",
+      "photo": "https://i.ibb.co.com/7dWbpCkp/Afreen-Sultana.jpg",
+      "specialization": "Pediatrician",
+      "education": {
+        "title": "MBBS, Pediatrician Specialist",
+        "passingYear": "2005",
+        "department": "Pediatrics",
+        "instituteName": "Apollo Hospital"
+      },
+      "experience": {
+        "years": 13,
+        "positions": [
+          {
+            "year": "2005-2009",
+            "position": "Junior Pediatrician",
+            "instituteName": "Apollo Hospital"
+          },
+          {
+            "year": "2010-2025",
+            "position": "Consultant Pediatrician",
+            "instituteName": "Children’s Health Clinic"
+          }
+        ]
+      },
+      "bio": "Dr. Afreen Sultana is a highly experienced pediatrician who specializes in the diagnosis and treatment of childhood diseases. With over 13 years of experience, she has helped thousands of children lead healthier lives. Dr. Sultana is known for her compassionate approach to pediatric care, focusing on both physical and emotional well-being of children.",
+      "address": {
+        "clinic": "Apollo Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Tuesday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [{ "startTime": "03:00 PM", "endTime": "06:00 PM" }]
+        },
+        {
+          "day": "Friday",
+          "slots": [{ "startTime": "11:00 AM", "endTime": "02:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1900,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.7,
+        "totalReviews": 130
+      },
+      "stats": {
+        "totalAppointments": 450,
+        "completedAppointments": 440,
+        "cancelledAppointments": 6,
+        "noShows": 4
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "25",
+      "name": "Dr. Bashir Ahmed",
+      "email": "dr._bashir_ahmed@example.com",
+      "password": "",
+      "phone": "01710000024",
+      "gender": "Male",
+      "photo": "https://i.ibb.co.com/93vfXFSC/Bashir-Ahmed.jpg",
+      "specialization": "Neurologist",
+      "education": {
+        "title": "MBBS, Neurologist Specialist",
+        "passingYear": "2003",
+        "department": "Neurology",
+        "instituteName": "Bangabandhu Sheikh Mujib Medical University"
+      },
+      "experience": {
+        "years": 14,
+        "positions": [
+          {
+            "year": "2003-2007",
+            "position": "Junior Neurologist",
+            "instituteName": "Bangabandhu Sheikh Mujib Medical University"
+          },
+          {
+            "year": "2008-2025",
+            "position": "Senior Neurologist",
+            "instituteName": "Dhaka Neurology Center"
+          }
+        ]
+      },
+      "bio": "Dr. Bashir Ahmed is a renowned neurologist with over 14 years of experience specializing in the treatment of neurological disorders. His expertise ranges from treating strokes and epilepsy to managing complex neurological conditions like Parkinson’s disease. Dr. Ahmed’s goal is to provide comprehensive care to his patients and improve their quality of life through advanced treatment methods.",
+      "address": {
+        "clinic": "Bangabandhu Sheikh Mujib Medical University",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "11:00 AM", "endTime": "02:00 PM" }]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "09:00 AM", "endTime": "12:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1800,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.8,
+        "totalReviews": 140
+      },
+      "stats": {
+        "totalAppointments": 370,
+        "completedAppointments": 360,
+        "cancelledAppointments": 5,
+        "noShows": 5
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "26",
+      "name": "Dr. Naima Rahman",
+      "email": "dr._naima_rahman@example.com",
+      "password": "",
+      "phone": "01710000025",
+      "gender": "Female",
+      "photo": "https://i.ibb.co.com/tTn2kcv7/Naima-Rahaman.png",
+      "specialization": "ent-specialist",
+      "education": {
+        "title": "MBBS, ENT Specialist",
+        "passingYear": "2004",
+        "department": "ENT",
+        "instituteName": "Popular Diagnostic Center"
+      },
+      "experience": {
+        "years": 15,
+        "positions": [
+          {
+            "year": "2004-2008",
+            "position": "Junior ENT Specialist",
+            "instituteName": "Popular Diagnostic Center"
+          },
+          {
+            "year": "2009-2025",
+            "position": "Consultant ENT Specialist",
+            "instituteName": "Evercare Hospital"
+          }
+        ]
+      },
+      "bio": "Dr. Naima Rahman is an expert ENT specialist with over 15 years of experience. She specializes in the diagnosis and treatment of ear, nose, and throat disorders. Dr. Rahman is dedicated to providing high-quality, personalized care to her patients, ensuring their hearing, breathing, and overall well-being are optimally maintained.",
+      "address": {
+        "clinic": "Popular Diagnostic Center",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Tuesday",
+          "slots": [{ "startTime": "03:00 PM", "endTime": "06:00 PM" }]
+        },
+        {
+          "day": "Thursday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "01:00 PM", "endTime": "04:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1700,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.6,
+        "totalReviews": 105
+      },
+      "stats": {
+        "totalAppointments": 330,
+        "completedAppointments": 320,
+        "cancelledAppointments": 4,
+        "noShows": 6
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "27",
+      "name": "Dr. Zubair Khan",
+      "email": "dr._zubair_khan@example.com",
+      "password": "",
+      "phone": "01710000026",
+      "gender": "Male",
+      "photo": "https://i.ibb.co.com/6RBmzFVy/Zubair-Khan.jpg",
+      "specialization": "general-surgeon",
+      "education": {
+        "title": "MBBS, General Surgeon Specialist",
+        "passingYear": "2003",
+        "department": "General Surgery",
+        "instituteName": "Ibn Sina Hospital"
+      },
+      "experience": {
+        "years": 16,
+        "positions": [
+          {
+            "year": "2003-2007",
+            "position": "Junior General Surgeon",
+            "instituteName": "Ibn Sina Hospital"
+          },
+          {
+            "year": "2008-2025",
+            "position": "Consultant General Surgeon",
+            "instituteName": "Dhaka General Hospital"
+          }
+        ]
+      },
+      "bio": "Dr. Zubair Khan is a highly experienced general surgeon with over 16 years of practice in the medical field. He specializes in abdominal surgeries, including gallbladder removal, hernia repairs, and appendectomies. Dr. Khan's commitment to his patients is evident in his personalized approach to surgery and post-operative care, ensuring optimal results and recovery.",
+      "address": {
+        "clinic": "Ibn Sina Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "12:00 PM", "endTime": "03:00 PM" }]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Friday",
+          "slots": [{ "startTime": "11:00 AM", "endTime": "02:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1800,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.7,
+        "totalReviews": 120
+      },
+      "stats": {
+        "totalAppointments": 400,
+        "completedAppointments": 390,
+        "cancelledAppointments": 5,
+        "noShows": 5
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "28",
+      "name": "Dr. Laila Yasmin",
+      "email": "dr._laila_yasmin@example.com",
+      "password": "",
+      "phone": "01710000027",
+      "gender": "Female",
+      "photo": "https://html.imjol.com/physicmed/physicmed/assets/images/team7.png",
+      "specialization": "Endocrinologist",
+      "education": {
+        "title": "MBBS, Endocrinologist Specialist",
+        "passingYear": "2006",
+        "department": "Endocrinology",
+        "instituteName": "Evercare Hospital"
+      },
+      "experience": {
+        "years": 17,
+        "positions": [
+          {
+            "year": "2006-2010",
+            "position": "Junior Endocrinologist",
+            "instituteName": "Evercare Hospital"
+          },
+          {
+            "year": "2011-2025",
+            "position": "Consultant Endocrinologist",
+            "instituteName": "Dhaka Endocrinology Center"
+          }
+        ]
+      },
+      "bio": "Dr. Laila Yasmin is a leading endocrinologist with over 17 years of experience in diagnosing and treating hormone-related disorders. Her areas of expertise include diabetes management, thyroid disorders, and metabolic diseases. Dr. Yasmin is committed to providing the highest quality of care, utilizing the latest research and treatment options available in the field of endocrinology.",
+      "address": {
+        "clinic": "Evercare Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Tuesday",
+          "slots": [{ "startTime": "03:00 PM", "endTime": "06:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1700,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.8,
+        "totalReviews": 130
+      },
+      "stats": {
+        "totalAppointments": 420,
+        "completedAppointments": 410,
+        "cancelledAppointments": 6,
+        "noShows": 5
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "29",
+      "name": "Dr. Hasanuzzaman",
+      "email": "dr._hasanuzzaman@example.com",
+      "password": "",
+      "phone": "01710000028",
+      "gender": "Male",
+      "photo": "https://html.imjol.com/physicmed/physicmed/assets/images/team4.png",
+      "specialization": "Oncologist",
+      "education": {
+        "title": "MBBS, Oncologist Specialist",
+        "passingYear": "2005",
+        "department": "Oncology",
+        "instituteName": "Labaid Specialized Hospital"
+      },
+      "experience": {
+        "years": 18,
+        "positions": [
+          {
+            "year": "2005-2009",
+            "position": "Junior Oncologist",
+            "instituteName": "Labaid Specialized Hospital"
+          },
+          {
+            "year": "2010-2025",
+            "position": "Senior Oncologist",
+            "instituteName": "Bangladesh Cancer Center"
+          }
+        ]
+      },
+      "bio": "Dr. Hasanuzzaman is a skilled oncologist with 18 years of experience specializing in cancer diagnosis and treatment. His expertise spans various types of cancers, including breast, lung, and colon cancers. He is committed to providing comprehensive care, focusing on both the physical and emotional well-being of his patients during their cancer treatment journey.",
+      "address": {
+        "clinic": "Labaid Specialized Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Tuesday",
+          "slots": [{ "startTime": "11:00 AM", "endTime": "02:00 PM" }]
+        },
+        {
+          "day": "Thursday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "01:00 PM", "endTime": "04:00 PM" }]
+        }
+      ],
+      "appointmentFee": 2000,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.9,
+        "totalReviews": 180
+      },
+      "stats": {
+        "totalAppointments": 500,
+        "completedAppointments": 490,
+        "cancelledAppointments": 5,
+        "noShows": 5
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "30",
+      "name": "Dr. Mahfuzur Rahman",
+      "email": "dr._mahfuzur_rahman@example.com",
+      "password": "",
+      "phone": "01710000029",
+      "gender": "Male",
+      "photo": "https://html.imjol.com/physicmed/physicmed/assets/images/team6.png",
+      "specialization": "Gastroenterologist",
+      "education": {
+        "title": "MBBS, Gastroenterologist Specialist",
+        "passingYear": "2006",
+        "department": "Gastroenterology",
+        "instituteName": "Mitford Hospital"
+      },
+      "experience": {
+        "years": 19,
+        "positions": [
+          {
+            "year": "2006-2010",
+            "position": "Junior Gastroenterologist",
+            "instituteName": "Mitford Hospital"
+          },
+          {
+            "year": "2011-2025",
+            "position": "Senior Gastroenterologist",
+            "instituteName": "Dhaka Gastro Clinic"
+          }
+        ]
+      },
+      "bio": "Dr. Mahfuzur Rahman is a renowned gastroenterologist specializing in the treatment of digestive system disorders. With nearly 20 years of experience, he is known for his expertise in diagnosing and managing conditions such as gastrointestinal reflux disease, liver diseases, and digestive cancers. Dr. Rahman is passionate about helping his patients improve their digestive health through comprehensive and personalized care.",
+      "address": {
+        "clinic": "Mitford Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [{ "startTime": "03:00 PM", "endTime": "06:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1900,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.7,
+        "totalReviews": 130
+      },
+      "stats": {
+        "totalAppointments": 460,
+        "completedAppointments": 450,
+        "cancelledAppointments": 6,
+        "noShows": 4
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "31",
+      "name": "Dr. Nazia Haque",
+      "email": "dr._nazia_haque@example.com",
+      "password": "",
+      "phone": "01710000030",
+      "gender": "Female",
+      "photo": "https://i.ibb.co.com/M4m26FX/Nazia-Haque.jpg",
+      "specialization": "Nephrologist",
+      "education": {
+        "title": "MBBS, Nephrologist Specialist",
+        "passingYear": "2006",
+        "department": "Nephrology",
+        "instituteName": "Dhaka Medical College"
+      },
+      "experience": {
+        "years": 5,
+        "positions": [
+          {
+            "year": "2006-2010",
+            "position": "Junior Nephrologist",
+            "instituteName": "Dhaka Medical College"
+          },
+          {
+            "year": "2011-2025",
+            "position": "Consultant Nephrologist",
+            "instituteName": "Bangladesh Kidney Center"
+          }
+        ]
+      },
+      "bio": "Dr. Nazia Haque is a skilled nephrologist with 5 years of experience specializing in kidney-related diseases. She focuses on the prevention and treatment of chronic kidney disease, dialysis management, and kidney transplantation. Dr. Haque is dedicated to improving the lives of her patients through advanced nephrology care and a compassionate approach.",
+      "address": {
+        "clinic": "Dhaka Medical College",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Tuesday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        },
+        {
+          "day": "Thursday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "11:00 AM", "endTime": "02:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1600,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.6,
+        "totalReviews": 105
+      },
+      "stats": {
+        "totalAppointments": 270,
+        "completedAppointments": 260,
+        "cancelledAppointments": 7,
+        "noShows": 5
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "32",
+      "name": "Dr. Tariq Mahmood",
+      "email": "dr._tariq_mahmood@example.com",
+      "password": "",
+      "phone": "01710000031",
+      "gender": "Male",
+      "photo": "https://html.imjol.com/physicmed/physicmed/assets/images/team5.png",
+      "specialization": "Psychiatrist",
+      "education": {
+        "title": "MBBS, Psychiatrist Specialist",
+        "passingYear": "2007",
+        "department": "Psychiatry",
+        "instituteName": "Square Hospital"
+      },
+      "experience": {
+        "years": 6,
+        "positions": [
+          {
+            "year": "2007-2011",
+            "position": "Junior Psychiatrist",
+            "instituteName": "Square Hospital"
+          },
+          {
+            "year": "2012-2025",
+            "position": "Consultant Psychiatrist",
+            "instituteName": "Dhaka Psychiatry Center"
+          }
+        ]
+      },
+      "bio": "Dr. Tariq Mahmood is a compassionate psychiatrist specializing in the treatment of mental health conditions such as depression, anxiety, and bipolar disorder. With over 6 years of experience, he is dedicated to helping his patients achieve mental well-being and improve their quality of life. Dr. Mahmood combines evidence-based therapy with personalized care to treat the whole person.",
+      "address": {
+        "clinic": "Square Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "03:00 PM", "endTime": "06:00 PM" }]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Friday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1500,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.7,
+        "totalReviews": 110
+      },
+      "stats": {
+        "totalAppointments": 280,
+        "completedAppointments": 270,
+        "cancelledAppointments": 6,
+        "noShows": 4
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "33",
+      "name": "Dr. Sultana Jahan",
+      "email": "dr._sultana_jahan@example.com",
+      "password": "",
+      "phone": "01710000032",
+      "gender": "Female",
+      "photo": "https://html.imjol.com/physicmed/physicmed/assets/images/team3.png",
+      "specialization": "Rheumatologist",
+      "education": {
+        "title": "MBBS, Rheumatologist Specialist",
+        "passingYear": "2006",
+        "department": "Rheumatology",
+        "instituteName": "United Hospital"
+      },
+      "experience": {
+        "years": 7,
+        "positions": [
+          {
+            "year": "2006-2010",
+            "position": "Junior Rheumatologist",
+            "instituteName": "United Hospital"
+          },
+          {
+            "year": "2011-2025",
+            "position": "Consultant Rheumatologist",
+            "instituteName": "Dhaka Rheumatology Clinic"
+          }
+        ]
+      },
+      "bio": "Dr. Sultana Jahan is an experienced rheumatologist specializing in autoimmune diseases, arthritis, and other musculoskeletal disorders. With over 7 years of experience, Dr. Jahan is committed to providing the best care for patients suffering from chronic pain, inflammation, and debilitating diseases. Her approach involves both pharmacological and non-pharmacological treatments to improve patient outcomes.",
+      "address": {
+        "clinic": "United Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Tuesday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Thursday",
+          "slots": [{ "startTime": "03:00 PM", "endTime": "06:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "09:00 AM", "endTime": "12:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1700,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.7,
+        "totalReviews": 125
+      },
+      "stats": {
+        "totalAppointments": 350,
+        "completedAppointments": 340,
+        "cancelledAppointments": 5,
+        "noShows": 5
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "34",
+      "name": "Dr. Khalid Bin Hasan",
+      "email": "dr._khalid_bin_hasan@example.com",
+      "password": "",
+      "phone": "01710000033",
+      "gender": "Male",
+      "photo": "https://html.imjol.com/physicmed/physicmed/assets/images/team2.png",
+      "specialization": "Pulmonologist",
+      "education": {
+        "title": "MBBS, Pulmonologist Specialist",
+        "passingYear": "2007",
+        "department": "Pulmonology",
+        "instituteName": "Apollo Hospital"
+      },
+      "experience": {
+        "years": 8,
+        "positions": [
+          {
+            "year": "2007-2011",
+            "position": "Junior Pulmonologist",
+            "instituteName": "Apollo Hospital"
+          },
+          {
+            "year": "2012-2025",
+            "position": "Consultant Pulmonologist",
+            "instituteName": "Bangladesh Lung Center"
+          }
+        ]
+      },
+      "bio": "Dr. Khalid Bin Hasan is a skilled pulmonologist with over 8 years of experience in treating respiratory disorders such as asthma, COPD, and lung infections. He is dedicated to improving the quality of life for his patients by offering comprehensive care that addresses both the medical and lifestyle aspects of respiratory health.",
+      "address": {
+        "clinic": "Apollo Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "11:00 AM", "endTime": "02:00 PM" }]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "01:00 PM", "endTime": "04:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1600,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.6,
+        "totalReviews": 110
+      },
+      "stats": {
+        "totalAppointments": 380,
+        "completedAppointments": 370,
+        "cancelledAppointments": 6,
+        "noShows": 4
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "35",
+      "name": "Dr. Ayesha Siddique",
+      "email": "dr._ayesha_siddique@example.com",
+      "password": "",
+      "phone": "01710000034",
+      "gender": "Female",
+      "photo": "https://html.imjol.com/physicmed/physicmed/assets/images/team1.png",
+      "specialization": "Hematologist",
+      "education": {
+        "title": "MBBS, Hematologist Specialist",
+        "passingYear": "2006",
+        "department": "Hematology",
+        "instituteName": "Bangabandhu Sheikh Mujib Medical University"
+      },
+      "experience": {
+        "years": 9,
+        "positions": [
+          {
+            "year": "2006-2010",
+            "position": "Junior Hematologist",
+            "instituteName": "Bangabandhu Sheikh Mujib Medical University"
+          },
+          {
+            "year": "2011-2025",
+            "position": "Consultant Hematologist",
+            "instituteName": "Bangladesh Hematology Center"
+          }
+        ]
+      },
+      "bio": "Dr. Ayesha Siddique is a specialist hematologist with over 9 years of experience in treating blood disorders such as anemia, leukemia, and clotting conditions. Dr. Siddique is dedicated to improving the health of her patients through advanced hematology care and personalized treatment plans that address both the medical and emotional aspects of their condition.",
+      "address": {
+        "clinic": "Bangabandhu Sheikh Mujib Medical University",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Tuesday",
+          "slots": [{ "startTime": "12:00 PM", "endTime": "03:00 PM" }]
+        },
+        {
+          "day": "Thursday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        }
+      ],
+      "appointmentFee": 2000,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.9,
+        "totalReviews": 150
+      },
+      "stats": {
+        "totalAppointments": 430,
+        "completedAppointments": 420,
+        "cancelledAppointments": 6,
+        "noShows": 5
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "36",
+      "name": "Dr. Anwar Hossain",
+      "email": "dr._anwar_hossain@example.com",
+      "password": "",
+      "phone": "01710000035",
+      "gender": "Male",
+      "photo": "https://html.imjol.com/physicmed/physicmed/assets/images/team3.png",
+      "specialization": "Urologist",
+      "education": {
+        "title": "MBBS, Urologist Specialist",
+        "passingYear": "2006",
+        "department": "Urology",
+        "instituteName": "Popular Diagnostic Center"
+      },
+      "experience": {
+        "years": 10,
+        "positions": [
+          {
+            "year": "2006-2010",
+            "position": "Junior Urologist",
+            "instituteName": "Popular Diagnostic Center"
+          },
+          {
+            "year": "2011-2025",
+            "position": "Consultant Urologist",
+            "instituteName": "Bangladesh Urology Center"
+          }
+        ]
+      },
+      "bio": "Dr. Anwar Hossain is a skilled urologist with 10 years of experience specializing in treating diseases of the urinary tract and male reproductive system. He is particularly skilled in performing surgeries for prostate issues, kidney stones, and urinary tract infections. Dr. Hossain is committed to providing high-quality care and improving the health and well-being of his patients.",
+      "address": {
+        "clinic": "Popular Diagnostic Center",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "09:00 AM", "endTime": "12:00 PM" }]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "11:00 AM", "endTime": "02:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1900,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.7,
+        "totalReviews": 120
+      },
+      "stats": {
+        "totalAppointments": 380,
+        "completedAppointments": 370,
+        "cancelledAppointments": 5,
+        "noShows": 5
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "37",
+      "name": "Dr. Maria Ferdous",
+      "email": "dr._maria_ferdous@example.com",
+      "password": "",
+      "phone": "01710000036",
+      "gender": "Female",
+      "photo": "https://html.imjol.com/physicmed/physicmed/assets/images/team4.png",
+      "specialization": "Gynecologist",
+      "education": {
+        "title": "MBBS, Gynecologist Specialist",
+        "passingYear": "2007",
+        "department": "Gynecology",
+        "instituteName": "Ibn Sina Hospital"
+      },
+      "experience": {
+        "years": 11,
+        "positions": [
+          {
+            "year": "2007-2011",
+            "position": "Junior Gynecologist",
+            "instituteName": "Ibn Sina Hospital"
+          },
+          {
+            "year": "2012-2025",
+            "position": "Consultant Gynecologist",
+            "instituteName": "Bangladesh Women's Health Center"
+          }
+        ]
+      },
+      "bio": "Dr. Maria Ferdous is a renowned gynecologist with 11 years of experience in women's health care. She specializes in providing comprehensive care for reproductive health, including prenatal care, family planning, and menopause management. Dr. Ferdous is dedicated to ensuring her patients receive the best possible care and support for their health and wellness throughout all stages of life.",
+      "address": {
+        "clinic": "Ibn Sina Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Tuesday",
+          "slots": [{ "startTime": "01:00 PM", "endTime": "04:00 PM" }]
+        },
+        {
+          "day": "Thursday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "04:00 PM", "endTime": "07:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1700,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.8,
+        "totalReviews": 130
+      },
+      "stats": {
+        "totalAppointments": 360,
+        "completedAppointments": 350,
+        "cancelledAppointments": 6,
+        "noShows": 4
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "38",
+      "name": "Dr. Habibur Rahman",
+      "email": "dr._habibur_rahman@example.com",
+      "password": "",
+      "phone": "01710000037",
+      "gender": "Male",
+      "photo": "https://html.imjol.com/physicmed/physicmed/assets/images/team2.png",
+      "specialization": "Ophthalmologist",
+      "education": {
+        "title": "MBBS, Ophthalmologist Specialist",
+        "passingYear": "2005",
+        "department": "Ophthalmology",
+        "instituteName": "Evercare Hospital"
+      },
+      "experience": {
+        "years": 12,
+        "positions": [
+          {
+            "year": "2005-2009",
+            "position": "Junior Ophthalmologist",
+            "instituteName": "Evercare Hospital"
+          },
+          {
+            "year": "2010-2025",
+            "position": "Senior Ophthalmologist",
+            "instituteName": "Dhaka Eye Center"
+          }
+        ]
+      },
+      "bio": "Dr. Habibur Rahman is a highly skilled ophthalmologist with 12 years of experience in treating a wide range of eye conditions. His expertise includes cataract surgery, LASIK, glaucoma treatment, and retinal care. Dr. Rahman is dedicated to restoring and improving his patients' vision, using the latest surgical techniques and technologies available.",
+      "address": {
+        "clinic": "Evercare Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [{ "startTime": "03:00 PM", "endTime": "06:00 PM" }]
+        },
+        {
+          "day": "Friday",
+          "slots": [{ "startTime": "09:00 AM", "endTime": "12:00 PM" }]
+        }
+      ],
+      "appointmentFee": 2000,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.9,
+        "totalReviews": 150
+      },
+      "stats": {
+        "totalAppointments": 420,
+        "completedAppointments": 410,
+        "cancelledAppointments": 6,
+        "noShows": 5
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "39",
+      "name": "Dr. Kaniz Fatema",
+      "email": "dr._kaniz_fatema@example.com",
+      "password": "",
+      "phone": "01710000038",
+      "gender": "Female",
+      "photo": "https://html.imjol.com/physicmed/physicmed/assets/images/team7.png",
+      "specialization": "Radiologist",
+      "education": {
+        "title": "MBBS, Radiologist Specialist",
+        "passingYear": "2005",
+        "department": "Radiology",
+        "instituteName": "Labaid Specialized Hospital"
+      },
+      "experience": {
+        "years": 13,
+        "positions": [
+          {
+            "year": "2005-2009",
+            "position": "Junior Radiologist",
+            "instituteName": "Labaid Specialized Hospital"
+          },
+          {
+            "year": "2010-2025",
+            "position": "Consultant Radiologist",
+            "instituteName": "Bangladesh Radiology Center"
+          }
+        ]
+      },
+      "bio": "Dr. Kaniz Fatema is an experienced radiologist with 13 years of experience in diagnostic imaging, specializing in X-rays, CT scans, MRIs, and ultrasounds. She is dedicated to providing accurate diagnoses to guide treatment plans, working closely with other specialists to ensure comprehensive care for her patients.",
+      "address": {
+        "clinic": "Labaid Specialized Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Tuesday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Thursday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "04:00 PM", "endTime": "07:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1900,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.8,
+        "totalReviews": 140
+      },
+      "stats": {
+        "totalAppointments": 450,
+        "completedAppointments": 440,
+        "cancelledAppointments": 6,
+        "noShows": 5
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "40",
+      "name": "Dr. Abdullah Al Mamun",
+      "email": "dr._abdullah_al_mamun@example.com",
+      "password": "",
+      "phone": "01710000039",
+      "gender": "Male",
+      "photo": "https://html.imjol.com/physicmed/physicmed/assets/images/team1.png",
+      "specialization": "Anesthesiologist",
+      "education": {
+        "title": "MBBS, Anesthesiologist Specialist",
+        "passingYear": "2004",
+        "department": "Anesthesiology",
+        "instituteName": "Mitford Hospital"
+      },
+      "experience": {
+        "years": 14,
+        "positions": [
+          {
+            "year": "2004-2008",
+            "position": "Junior Anesthesiologist",
+            "instituteName": "Mitford Hospital"
+          },
+          {
+            "year": "2009-2025",
+            "position": "Senior Anesthesiologist",
+            "instituteName": "Bangladesh Anesthesia Institute"
+          }
+        ]
+      },
+      "bio": "Dr. Abdullah Al Mamun is a highly skilled anesthesiologist with over 14 years of experience in providing anesthesia care during surgeries and procedures. He has expertise in both general and regional anesthesia and is known for his meticulous approach to patient safety. Dr. Mamun works closely with surgical teams to ensure a smooth and safe surgical experience for his patients.",
+      "address": {
+        "clinic": "Mitford Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "03:00 PM", "endTime": "06:00 PM" }]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        },
+        {
+          "day": "Friday",
+          "slots": [{ "startTime": "01:00 PM", "endTime": "04:00 PM" }]
+        }
+      ],
+      "appointmentFee": 2000,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.9,
+        "totalReviews": 160
+      },
+      "stats": {
+        "totalAppointments": 500,
+        "completedAppointments": 490,
+        "cancelledAppointments": 6,
+        "noShows": 5
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "41",
+      "name": "Dr. Afnan Ahmed",
+      "email": "dr._afnan_ahmed@example.com",
+      "password": "",
+      "phone": "01710000040",
+      "gender": "Male",
+      "photo": "https://html.imjol.com/physicmed/physicmed/assets/images/team6.png",
+      "specialization": "Cardiologist",
+      "education": {
+        "title": "MBBS, Cardiologist Specialist",
+        "passingYear": "2004",
+        "department": "Cardiology",
+        "instituteName": "Bangladesh Heart Institute"
+      },
+      "experience": {
+        "years": 15,
+        "positions": [
+          {
+            "year": "2004-2008",
+            "position": "Junior Cardiologist",
+            "instituteName": "Bangladesh Heart Institute"
+          },
+          {
+            "year": "2009-2025",
+            "position": "Senior Cardiologist",
+            "instituteName": "Dhaka Heart Care Center"
+          }
+        ]
+      },
+      "bio": "Dr. Afnan Ahmed is a highly experienced cardiologist with 15 years of expertise in diagnosing and treating heart diseases. He specializes in coronary artery disease, heart failure, and arrhythmias. Dr. Ahmed's compassionate care and advanced treatments have helped countless patients lead healthier lives. He continues to innovate and apply the latest cardiac technologies in his practice.",
+      "address": {
+        "clinic": "Bangladesh Heart Institute",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Tuesday",
+          "slots": [{ "startTime": "09:00 AM", "endTime": "12:00 PM" }]
+        },
+        {
+          "day": "Thursday",
+          "slots": [{ "startTime": "03:00 PM", "endTime": "06:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "01:00 PM", "endTime": "04:00 PM" }]
+        }
+      ],
+      "appointmentFee": 2200,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.9,
+        "totalReviews": 180
+      },
+      "stats": {
+        "totalAppointments": 500,
+        "completedAppointments": 480,
+        "cancelledAppointments": 10,
+        "noShows": 10
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "42",
+      "name": "Dr. Hina Jahan",
+      "email": "dr._hina_jahan@example.com",
+      "password": "",
+      "phone": "01710000041",
+      "gender": "Female",
+      "photo": "https://html.imjol.com/physicmed/physicmed/assets/images/team5.png",
+      "specialization": "Dermatologist",
+      "education": {
+        "title": "MBBS, Dermatologist Specialist",
+        "passingYear": "2006",
+        "department": "Dermatology",
+        "instituteName": "Skin & Hair Clinic"
+      },
+      "experience": {
+        "years": 12,
+        "positions": [
+          {
+            "year": "2006-2010",
+            "position": "Junior Dermatologist",
+            "instituteName": "Skin & Hair Clinic"
+          },
+          {
+            "year": "2011-2025",
+            "position": "Senior Dermatologist",
+            "instituteName": "Dhaka Skin Center"
+          }
+        ]
+      },
+      "bio": "Dr. Hina Jahan is a leading dermatologist with over 12 years of experience in treating a wide range of skin conditions, including acne, eczema, and skin cancer. She is passionate about helping patients achieve healthy, glowing skin through personalized care plans and the latest dermatological treatments. Dr. Jahan also specializes in cosmetic dermatology and anti-aging treatments.",
+      "address": {
+        "clinic": "Skin & Hair Clinic",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [{ "startTime": "03:00 PM", "endTime": "06:00 PM" }]
+        },
+        {
+          "day": "Friday",
+          "slots": [{ "startTime": "09:00 AM", "endTime": "12:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1800,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.8,
+        "totalReviews": 170
+      },
+      "stats": {
+        "totalAppointments": 460,
+        "completedAppointments": 450,
+        "cancelledAppointments": 5,
+        "noShows": 5
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "43",
+      "name": "Dr. Omar Khalil",
+      "email": "dr._omar_khalil@example.com",
+      "password": "",
+      "phone": "01710000042",
+      "gender": "Male",
+      "photo": "https://html.imjol.com/physicmed/physicmed/assets/images/team2.png",
+      "specialization": "orthopedic-surgeon",
+      "education": {
+        "title": "MBBS, Orthopedic Surgeon Specialist",
+        "passingYear": "2004",
+        "department": "Orthopedics",
+        "instituteName": "Orthopedic Care Center"
+      },
+      "experience": {
+        "years": 20,
+        "positions": [
+          {
+            "year": "2004-2008",
+            "position": "Junior Orthopedic Surgeon",
+            "instituteName": "Orthopedic Care Center"
+          },
+          {
+            "year": "2009-2025",
+            "position": "Consultant Orthopedic Surgeon",
+            "instituteName": "Dhaka Bone & Joint Center"
+          }
+        ]
+      },
+      "bio": "Dr. Omar Khalil is a highly experienced orthopedic surgeon with 20 years of practice specializing in complex orthopedic procedures and sports injuries. He is well-versed in advanced techniques like joint replacements and minimally invasive surgeries. His expertise also extends to treating bone fractures, spinal issues, and musculoskeletal disorders. Dr. Khalil is dedicated to improving his patients' mobility and quality of life through personalized treatment plans.",
+      "address": {
+        "clinic": "Orthopedic Care Center",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Tuesday",
+          "slots": [{ "startTime": "03:00 PM", "endTime": "06:00 PM" }]
+        },
+        {
+          "day": "Thursday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "01:00 PM", "endTime": "04:00 PM" }]
+        }
+      ],
+      "appointmentFee": 2500,
+      "isVerified": true,
+      "ratings": {
+        "average": 5.0,
+        "totalReviews": 200
+      },
+      "stats": {
+        "totalAppointments": 600,
+        "completedAppointments": 590,
+        "cancelledAppointments": 7,
+        "noShows": 3
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "44",
+      "name": "Dr. Rafat Ali",
+      "email": "dr._rafat_ali@example.com",
+      "password": "",
+      "phone": "01710000043",
+      "gender": "Male",
+      "photo": "https://html.imjol.com/physicmed/physicmed/assets/images/team3.png",
+      "specialization": "Nephrologist",
+      "education": {
+        "title": "MBBS, Nephrologist Specialist",
+        "passingYear": "2003",
+        "department": "Nephrology",
+        "instituteName": "Dhaka Kidney Center"
+      },
+      "experience": {
+        "years": 18,
+        "positions": [
+          {
+            "year": "2003-2007",
+            "position": "Junior Nephrologist",
+            "instituteName": "Dhaka Kidney Center"
+          },
+          {
+            "year": "2008-2025",
+            "position": "Consultant Nephrologist",
+            "instituteName": "Bangladesh Nephrology Association"
+          }
+        ]
+      },
+      "bio": "Dr. Rafat Ali is an experienced nephrologist with 18 years of expertise in kidney diseases, dialysis, and transplantation. He has a deep understanding of kidney function and is passionate about providing high-quality care to patients with chronic kidney disease and those undergoing dialysis. Dr. Ali is dedicated to improving his patients' kidney health through the latest treatment techniques and preventive measures.",
+      "address": {
+        "clinic": "Dhaka Kidney Center",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Friday",
+          "slots": [{ "startTime": "01:00 PM", "endTime": "04:00 PM" }]
+        }
+      ],
+      "appointmentFee": 2200,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.9,
+        "totalReviews": 190
+      },
+      "stats": {
+        "totalAppointments": 550,
+        "completedAppointments": 540,
+        "cancelledAppointments": 8,
+        "noShows": 7
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "45",
+      "name": "Dr. Mashael Shah",
+      "email": "dr._mashael_shah@example.com",
+      "password": "",
+      "phone": "01710000044",
+      "gender": "Female",
+      "photo": "https://html.imjol.com/physicmed/physicmed/assets/images/team4.png",
+      "specialization": "Pediatrician",
+      "education": {
+        "title": "MBBS, Pediatrician Specialist",
+        "passingYear": "2006",
+        "department": "Pediatrics",
+        "instituteName": "Children’s Health Clinic"
+      },
+      "experience": {
+        "years": 14,
+        "positions": [
+          {
+            "year": "2006-2010",
+            "position": "Junior Pediatrician",
+            "instituteName": "Children’s Health Clinic"
+          },
+          {
+            "year": "2011-2025",
+            "position": "Senior Pediatrician",
+            "instituteName": "Dhaka Children’s Hospital"
+          }
+        ]
+      },
+      "bio": "Dr. Mashael Shah is a compassionate pediatrician with 14 years of experience in treating children's health issues, from newborn care to adolescence. Her expertise includes managing common pediatric conditions, immunizations, and growth development. Dr. Shah is committed to providing personalized, patient-centered care, ensuring children receive the best possible treatment and support during their early years.",
+      "address": {
+        "clinic": "Children’s Health Clinic",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "09:00 AM", "endTime": "12:00 PM" }]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "12:00 PM", "endTime": "03:00 PM" }]
+        }
+      ],
+      "appointmentFee": 1800,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.8,
+        "totalReviews": 160
+      },
+      "stats": {
+        "totalAppointments": 470,
+        "completedAppointments": 460,
+        "cancelledAppointments": 5,
+        "noShows": 5
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "46",
+      "name": "Dr. Shamsul Haque",
+      "email": "dr._shamsul_haque@example.com",
+      "password": "",
+      "phone": "01710000045",
+      "gender": "Male",
+      "photo": "https://html.imjol.com/physicmed/physicmed/assets/images/team1.png",
+      "specialization": "Gastroenterologist",
+      "education": {
+        "title": "MBBS, Gastroenterologist Specialist",
+        "passingYear": "2007",
+        "department": "Gastroenterology",
+        "instituteName": "Dhaka Gastro Clinic"
+      },
+      "experience": {
+        "years": 12,
+        "positions": [
+          {
+            "year": "2007-2011",
+            "position": "Junior Gastroenterologist",
+            "instituteName": "Dhaka Gastro Clinic"
+          },
+          {
+            "year": "2012-2025",
+            "position": "Senior Gastroenterologist",
+            "instituteName": "Bangladesh Gastroenterology Society"
+          }
+        ]
+      },
+      "bio": "Dr. Shamsul Haque is a highly skilled gastroenterologist with 12 years of experience in diagnosing and treating gastrointestinal disorders. His specialties include liver diseases, colon cancer, and digestive disorders. Dr. Haque is dedicated to using cutting-edge technology to provide accurate diagnoses and effective treatments. He ensures his patients receive the best possible care for their digestive health.",
+      "address": {
+        "clinic": "Dhaka Gastro Clinic",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Tuesday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        },
+        {
+          "day": "Thursday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "11:00 AM", "endTime": "02:00 PM" }]
+        }
+      ],
+      "appointmentFee": 2000,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.7,
+        "totalReviews": 160
+      },
+      "stats": {
+        "totalAppointments": 460,
+        "completedAppointments": 450,
+        "cancelledAppointments": 5,
+        "noShows": 5
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "47",
+      "name": "Dr. Rehana Parveen",
+      "email": "dr._rehana_parveen@example.com",
+      "password": "",
+      "phone": "01710000046",
+      "gender": "Female",
+      "photo": "https://html.imjol.com/physicmed/physicmed/assets/images/appnt-img2.png",
+      "specialization": "Oncologist",
+      "education": {
+        "title": "MBBS, Oncologist Specialist",
+        "passingYear": "2005",
+        "department": "Oncology",
+        "instituteName": "Oncology Care Center"
+      },
+      "experience": {
+        "years": 14,
+        "positions": [
+          {
+            "year": "2005-2009",
+            "position": "Junior Oncologist",
+            "instituteName": "Oncology Care Center"
+          },
+          {
+            "year": "2010-2025",
+            "position": "Senior Oncologist",
+            "instituteName": "Dhaka Cancer Institute"
+          }
+        ]
+      },
+      "bio": "Dr. Rehana Parveen is an experienced oncologist specializing in cancer treatment and oncology care. With over 14 years of experience, she has treated patients with various forms of cancer, including breast, lung, and colorectal cancer. Dr. Parveen uses the latest advancements in cancer care to provide her patients with the best possible treatment options. She is dedicated to offering compassionate care to her patients throughout their treatment journey.",
+      "address": {
+        "clinic": "Oncology Care Center",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "10:00 AM", "endTime": "01:00 PM" }]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [{ "startTime": "03:00 PM", "endTime": "06:00 PM" }]
+        },
+        {
+          "day": "Friday",
+          "slots": [{ "startTime": "01:00 PM", "endTime": "04:00 PM" }]
+        }
+      ],
+      "appointmentFee": 2300,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.9,
+        "totalReviews": 180
+      },
+      "stats": {
+        "totalAppointments": 500,
+        "completedAppointments": 490,
+        "cancelledAppointments": 5,
+        "noShows": 5
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "48",
+      "name": "Dr. Ibrahim Sattar",
+      "email": "dr._ibrahim_sattar@example.com",
+      "password": "",
+      "phone": "01710000047",
+      "gender": "Male",
+      "photo": "https://html.imjol.com/physicmed/physicmed/assets/images/team6.png",
+      "specialization": "Nephrologist",
+      "education": {
+        "title": "MBBS, Nephrologist Specialist",
+        "passingYear": "2003",
+        "department": "Nephrology",
+        "instituteName": "Kidney Care Hospital"
+      },
+      "experience": {
+        "years": 16,
+        "positions": [
+          {
+            "year": "2003-2007",
+            "position": "Junior Nephrologist",
+            "instituteName": "Kidney Care Hospital"
+          },
+          {
+            "year": "2008-2025",
+            "position": "Consultant Nephrologist",
+            "instituteName": "Bangladesh Nephrology Association"
+          }
+        ]
+      },
+      "bio": "Dr. Ibrahim Sattar is a nephrologist specializing in kidney care and dialysis treatments. With over 16 years of experience, he has managed complex kidney diseases and performed various dialysis procedures. Dr. Sattar is dedicated to providing personalized care to his patients, ensuring optimal treatment for kidney-related conditions. He is also involved in kidney transplantation and provides support to patients undergoing dialysis.",
+      "address": {
+        "clinic": "Kidney Care Hospital",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "09:00 AM", "endTime": "12:00 PM" }]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "11:00 AM", "endTime": "02:00 PM" }]
+        }
+      ],
+      "appointmentFee": 2100,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.8,
+        "totalReviews": 170
+      },
+      "stats": {
+        "totalAppointments": 470,
+        "completedAppointments": 460,
+        "cancelledAppointments": 6,
+        "noShows": 4
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "49",
+      "name": "Dr. Khadija Rahman",
+      "email": "dr._khadija_rahman@example.com",
+      "password": "",
+      "phone": "01710000048",
+      "gender": "Female",
+      "photo": "https://html.imjol.com/physicmed/physicmed/assets/images/team5.png",
+      "specialization": "Gynecologist",
+      "education": {
+        "title": "MBBS, Gynecologist Specialist",
+        "passingYear": "2004",
+        "department": "Gynecology",
+        "instituteName": "Women’s Health Center"
+      },
+      "experience": {
+        "years": 18,
+        "positions": [
+          {
+            "year": "2004-2008",
+            "position": "Junior Gynecologist",
+            "instituteName": "Women’s Health Center"
+          },
+          {
+            "year": "2009-2025",
+            "position": "Senior Gynecologist",
+            "instituteName": "Dhaka Maternity Hospital"
+          }
+        ]
+      },
+      "bio": "Dr. Khadija Rahman is a renowned gynecologist with 18 years of experience in women’s health and maternity care. She specializes in childbirth, prenatal and postnatal care, as well as treating gynecological conditions. Dr. Rahman is passionate about empowering women through education and preventive care, ensuring that every patient receives personalized, high-quality treatment.",
+      "address": {
+        "clinic": "Women’s Health Center",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Tuesday",
+          "slots": [{ "startTime": "01:00 PM", "endTime": "04:00 PM" }]
+        },
+        {
+          "day": "Thursday",
+          "slots": [{ "startTime": "09:00 AM", "endTime": "12:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        }
+      ],
+      "appointmentFee": 2500,
+      "isVerified": true,
+      "ratings": {
+        "average": 4.9,
+        "totalReviews": 200
+      },
+      "stats": {
+        "totalAppointments": 520,
+        "completedAppointments": 510,
+        "cancelledAppointments": 5,
+        "noShows": 5
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "id": "50",
+      "name": "Dr. Zaynab Tarek",
+      "email": "dr._zaynab_tarek@example.com",
+      "password": "",
+      "phone": "01710000049",
+      "gender": "Female",
+      "photo": "https://html.imjol.com/physicmed/physicmed/assets/images/team02.png",
+      "specialization": "Pediatrician",
+      "education": {
+        "title": "MBBS, Pediatrician Specialist",
+        "passingYear": "2006",
+        "department": "Pediatrics",
+        "instituteName": "Pediatric Health Clinic"
+      },
+      "experience": {
+        "years": 19,
+        "positions": [
+          {
+            "year": "2006-2010",
+            "position": "Junior Pediatrician",
+            "instituteName": "Pediatric Health Clinic"
+          },
+          {
+            "year": "2011-2025",
+            "position": "Senior Pediatrician",
+            "instituteName": "Dhaka Children’s Hospital"
+          }
+        ]
+      },
+      "bio": "Dr. Zaynab Tarek is a compassionate pediatrician with 19 years of experience specializing in the health and well-being of children. She is known for her expertise in treating childhood diseases, growth and development issues, and managing immunizations. Dr. Tarek provides holistic care and focuses on building strong relationships with her patients and their families to ensure optimal health outcomes.",
+      "address": {
+        "clinic": "Pediatric Health Clinic",
+        "city": "Dhaka",
+        "area": "Bangladesh",
+        "country": "Bangladesh"
+      },
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [{ "startTime": "02:00 PM", "endTime": "05:00 PM" }]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [{ "startTime": "09:00 AM", "endTime": "12:00 PM" }]
+        },
+        {
+          "day": "Saturday",
+          "slots": [{ "startTime": "03:00 PM", "endTime": "06:00 PM" }]
+        }
+      ],
+      "appointmentFee": 2200,
+      "isVerified": true,
+      "ratings": {
+        "average": 5.0,
+        "totalReviews": 210
+      },
+      "stats": {
+        "totalAppointments": 550,
+        "completedAppointments": 540,
+        "cancelledAppointments": 6,
+        "noShows": 4
+      },
+      "role": "doctor",
+      "isActive": true,
+      "createdAt": "2025-04-20T00:00:00Z",
+      "updatedAt": "2025-04-20T00:00:00Z",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": ""
+      }
+    }
+  ],
+  "testimonial": [
+    {
+      "id": 1,
+      "name": "Sabbir Ahmed",
+      "description": "The prenatal care was comprehensive, and the support I received from the clinic's staff was outstanding. Doctor Plus truly prioritizes the well-being of the patients.",
+      "image": "https://i.ibb.co/FJpDCQp/sabbir.jpg",
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "name": "Mamun Or Rashid",
+      "description": "The prenatal care was comprehensive, and the support I received from the clinic's staff was outstanding. Doctor Plus truly prioritizes the well-being of the patients.",
+      "image": "https://i.ibb.co.com/qrB3kYq/Imtiaz.jpg",
+      "rating": 5
+    },
+    {
+      "id": 3,
+      "name": "Mehedi Hasan",
+      "description": "The prenatal care was comprehensive, and the support I received from the clinic's staff was outstanding. Doctor Plus truly prioritizes the well-being of the patients.",
+      "image": "https://i.ibb.co/g3XsQgv/mehedi.jpg",
+      "rating": 5
+    },
+    {
+      "id": 4,
+      "name": "Sahariyar Hasan",
+      "description": "The prenatal care was comprehensive, and the support I received from the clinic's staff was outstanding. Doctor Plus truly prioritizes the well-being of the patients.",
+      "image": "https://i.ibb.co/5j2ZcgR/sahariyar.jpg",
+      "rating": 5
+    },
+    {
+      "id": 5,
+      "name": "Afzol",
+      "description": "The prenatal care was comprehensive, and the support I received from the clinic's staff was outstanding. Doctor Plus truly prioritizes the well-being of the patients.",
+      "image": "https://i.ibb.co.com/Jz1fLqd/client1.jpg",
+      "rating": 4
+    },
+    {
+      "id": 6,
+      "name": "Riya Nur",
+      "description": "The prenatal care was comprehensive, and the support I received from the clinic's staff was outstanding. Doctor Plus truly prioritizes the well-being of the patients.",
+      "image": "https://i.ibb.co.com/Z6wKTss/client4.jpg",
+      "rating": 5
+    }
+  ],
+  "taskStep": [
+    {
+      "id": 1,
+      "name": "Choose Doctors",
+      "title": "Book An Appointment At A Time That Suits You.",
+      "description": "Take control of your schedule by booking a medical appointment with ease. Our platform lets you browse a wide selection of licensed and experienced doctors from various specialties. Whether you need a quick consultation or a routine check-up, you can select a time slot that best fits your busy day. Enjoy the freedom to get expert care without waiting in long queues or adjusting your entire day around one appointment.",
+      "bullets": [
+        "Browse our list of certified doctors",
+        "Check available appointment times",
+        "Book instantly with a few clicks"
+      ],
+      "image": "https://html.imjol.com/physicmed/physicmed/assets/images/task1.png"
+    },
+    {
+      "id": 2,
+      "name": "Booking Doctors",
+      "title": "Choose your favorite Doctor as your needs",
+      "description": "Finding the right doctor is important for your health and comfort. Our platform allows you to choose your preferred medical professional based on factors such as specialty, experience, gender, availability, and patient reviews. Whether you’re dealing with a specific condition or just need a general checkup, we help you find the most suitable doctor who understands your needs and makes you feel at ease throughout the process.",
+      "bullets": [
+        "Filter doctors by specialty or gender",
+        "Read patient reviews and ratings",
+        "Choose the best fit for your condition"
+      ],
+      "image": "https://html.imjol.com/physicmed/physicmed/assets/images/mb3.png"
+    },
+    {
+      "id": 3,
+      "name": "Doctors Service",
+      "title": "Select a Health Care Service as your needs",
+      "description": "Our healthcare platform offers a range of services to suit your specific medical needs. From online consultations and therapy sessions to follow-up care and prescription management, you can easily select the right service with just a few clicks. We understand that every patient is different, so our system is designed to give you complete flexibility in building a healthcare experience tailored to your health goals and lifestyle.",
+      "bullets": [
+        "Select from various medical services",
+        "Add optional services if needed",
+        "Confirm and proceed to consultation"
+      ],
+      "image": "https://themes.envytheme.com/mavis/wp-content/uploads/2024/04/about1.jpg"
+    }
+  ]
+}

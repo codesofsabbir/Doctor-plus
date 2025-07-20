@@ -1,0 +1,7 @@
+which process is more acceptable for fetch session user data. --> should id use fetch all user from database then filter user with session user or fetch user by session id
+
+after login it not show drop down nav first time when i reload the page then the session data displayed how can i solve this
+
+problem with middleware private route when session.user.role === patient then i can not go in doctor protected route but i can go same as session.user.role === doctor
+
+Appoinment Form Submit Problem

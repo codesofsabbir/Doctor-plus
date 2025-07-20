@@ -1,9 +1,22 @@
-import React from 'react'
+"use client";
+import React from "react";
+import { useRouter } from "next/navigation";
 
-function Button() {
+function Button({ className }) {
+  const router = useRouter();
+
+  const handleClick = () => {
+    router.push("/doctors");
+  };
+
   return (
-    <button className='bg-yellow-500 rounded-lg px-10 py-2 text-white font-bold cursor-pointer'>Appoinment</button>
-  )
+    <button
+      onClick={handleClick}
+      className={`bg-[#fdc417] hover:bg-yellow-500 transition-all duration-150 rounded-lg px-10 py-2 text-white font-bold cursor-pointer ${className}`}
+    >
+      Appointment
+    </button>
+  );
 }
 
-export default Button
+export default Button;

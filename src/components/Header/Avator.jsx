@@ -1,77 +1,68 @@
 "use client";
-import React, { useRef, useState, useEffect } from "react";
+
+import React, { useEffect, useRef, useState } from "react";
 import Image from "next/image";
-import LoginMenu from "./LoginMenu";
-import LogoutMenu from "./LogoutMenu";
+import DropdownMenu from "./DropdownMenu";
 
-function Avator() {
-  const [isLogin, setIsLogin] = useState(false);
+function Avator({ session }) {
   const [isOpen, setIsOpen] = useState(false);
-  const [user, setUser] = useState(null); // Default state is null
-  const menuRef = useRef(null);
   const avatarRef = useRef(null);
-
-  const toggleMenu = (event) => {
-    event.stopPropagation(); // Stop event from bubbling
-    setIsOpen((prev) => !prev);
-  };
-  const closeMenu = () => {
-    setIsOpen(false);
-};
-
+  const [user, setUser] = useState(null);
   useEffect(() => {
-    fetch("http://localhost:5001/user")
-      .then((res) => res.json())
-      .then((data) => {
-        const foundUser = data.find(
-          (user) =>
-            user.phone === "01303142498" && user.password === 1111111
-        );
-
-        if (foundUser) {
-          setUser(foundUser);
-          setIsLogin(true); // Update login state when user is found
-        }
-      })
-      .catch((error) => console.error("Error fetching data:", error));
-
-    // Click outside to close menu
-    const handleClickOutside = (event) => {
-      if (
-        menuRef.current &&
-        !menuRef.current.contains(event.target) &&
-        avatarRef.current &&
-        !avatarRef.current.contains(event.target)
-      ) {
-        setIsOpen(false);
+    const getUser = async () => {
+      if (session?.user?.role === "patient") {
+        const response = await fetch(`api/patients/${session?.user?.id}`, {
+          method: "GET",
+        });
+        const userData = await response.json();
+        setUser(userData);
+      }
+      if (session?.user?.role === "doctor") {
+        const response = await fetch(`api/doctors/${session?.user?.id}`, {
+          method: "GET",
+        });
+        const userData = await response.json();
+        setUser(userData);
       }
     };
+    getUser();
+  }, [session]);
+  const toggleMenu = (event) => {
+    event.stopPropagation();
+    setIsOpen((prev) => !prev);
+  };
 
-    document.addEventListener("click", handleClickOutside);
-    return () => {
-      document.removeEventListener("click", handleClickOutside);
-    };
-  }, []);
+  // if (status === "loading") {
+  //   return <div>Loading...</div>;
+  // }
 
   return (
-    <div className="relative z-10">
+    <div>
       <div
         ref={avatarRef}
-        className="rounded-full overflow-hidden w-10 h-10 border cursor-pointer"
+        className={`rounded-full overflow-hidden w-10 h-10 cursor-pointer ${
+          isOpen
+            ? "outline outline-yellow-500 shadow-[0_0_5px_#fdc417,0_0_5px_#fdc417]"
+            : ""
+        }`}
         onClick={toggleMenu}
       >
         <Image
-          src={isLogin && user?.image ? user.image : "https://i.ibb.co.com/f0tg7c3/user.png"}
-          alt="Doctor Plus logo"
-          width={50}
-          height={50}
-          className="object-cover"
+          src={user?.image || "https://i.ibb.co.com/f0tg7c3/user.png"}
+          alt="User Avatar"
+          width={500}
+          height={500}
+          className="object-cover h-full w-full"
         />
       </div>
+
       {isOpen && (
-        <div ref={menuRef} className="absolute top-12 -right-1/2 bg-white shadow-md p-2 rounded-lg w-[280px]">
-          {isLogin ? <LoginMenu user={user} closeMenu={closeMenu}/> : <LogoutMenu avatar="https://i.ibb.co.com/f0tg7c3/user.png" closeMenu={closeMenu}/>}
-        </div>
+        <DropdownMenu
+          session={session}
+          user={user}
+          setIsOpen={setIsOpen}
+          avatarRef={avatarRef}
+        />
       )}
     </div>
   );

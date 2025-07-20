@@ -1,38 +1,68 @@
 @import url("https://themes.envytheme.com/mavis/wp-content/themes/mavis/assets/css/flaticon-mavis.css");
 @import "tailwindcss";
 
-
-
 .menu .menuItem {
   position: relative;
   transition: all 0.5s ease-in-out;
+  /* color: #d1d5db; */
 }
 .menu .menuItem:hover {
-  color: #2563eb;
-  font-weight: 700;
+  color: #ffffff;
 }
 
 .menu .menuItem::after {
   position: absolute;
-  content: '';
+  content: "";
   bottom: 0;
   left: 0;
   width: 0;
   height: 2px;
-  background: #2563eb;
-  transition: width 0.3s ease-in-out;  /* Add transition for the ::after element */
+  background: #ffffff;
+  transition: width 0.3s ease-in-out;
 }
 
 .menu .menuItem:hover::after {
   width: 100%;
 }
 
-.menu .menuItem:active{
+.menu .menuItem:active {
   font-weight: 700;
   color: #eab308;
 }
 
-.box:hover .icon{
+.dropDownMenuItem {
+  position: relative;
+  transition: all 0.5s ease-in-out;
+  color: #d1d5db;
+  padding: 4px 0;
+  font-weight: 700;
+  width: fit-content;
+}
+.dropDownMenuItem:hover {
+  color: #ffffff;
+}
+
+.dropDownMenuItem::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #ffffff;
+  transition: width 0.3s ease-in-out;
+}
+
+.dropDownMenuItem:hover::after {
+  width: 100%;
+}
+
+.dropDownMenuItem:active {
+  font-weight: 700;
+  color: #eab308;
+}
+
+.box:hover .icon {
   background: #f0da75;
   color: white;
 }
@@ -42,38 +72,38 @@
 }
 
 .box:hover .svg-icon path {
-  fill: white; 
+  fill: white;
 }
-.service-icon{
-  transition: all .7s ease;
+.service-icon {
+  transition: all 0.7s ease;
 }
 
-.service-card:hover .service-icon{
+.service-card:hover .service-icon {
   width: 40px;
   height: 40px;
 }
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.eye {
+  background: green;
+  color: red;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.box-bg {
+  background-image: url("https://i.ibb.co/Rp76TYPb/Art-1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@keyframes spin {
+  0% {
+    transform: rotate(0deg); /* Start at 0 degrees */
+  }
+  100% {
+    transform: rotate(360deg); /* End at 360 degrees (full rotation) */
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.spin {
+  animation: spin 20s linear infinite;
 }

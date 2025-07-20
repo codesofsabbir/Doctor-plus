@@ -1,12 +1,12 @@
-import HeaderTop from './HeaderTop'
-import MainHeader from './MainHeader'
+import React from "react";
+import HeaderTop from "./HeaderTop";
+import NavigationMenu from "./NavigationMenu";
 
 function Header() {
-  
   return (
     <>
       <HeaderTop />
-      <MainHeader />
+      <NavigationMenu />
     </>
   );
 }
